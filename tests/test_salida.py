@@ -34,6 +34,11 @@ def test_pagina_escapa_html():
     assert "<script>alert" not in h and "&lt;script&gt;" in h
 
 
+def test_barrio_igual_a_zona_no_se_repite():
+    h = generar_pagina(agrupar([_p(zona="Altamira", barrio="Altamira")]), {}, AHORA, {})
+    assert "Altamira · Altamira" not in h
+
+
 def test_pagina_vacia_lo_dice():
     assert "Ahora mismo no hay ningún piso" in generar_pagina([], {}, AHORA, {})
 

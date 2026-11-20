@@ -65,7 +65,7 @@ def parsear(html: str) -> list[Piso]:
             m2=entero(re.search(r"(\d+) m²", texto) and re.search(r"(\d+) m²", texto).group(1)),
             planta=planta,
             barrio=_barrio(partes),
-            foto=img.get("src") if img else None,
+            foto=(img.get("src") or img.get("data-src")) if img else None,
         ))
     return pisos
 

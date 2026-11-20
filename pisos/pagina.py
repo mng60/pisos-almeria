@@ -12,6 +12,7 @@ from . import config
 from .duplicados import Grupo
 from .estado import clave
 from .filtro import clasificar
+from .texto import normalizar
 
 NOMBRES_PORTAL = {"fotocasa": "Fotocasa", "habitaclia": "Habitaclia", "pisoscom": "pisos.com",
                   "milanuncios": "Milanuncios", "idealista": "Idealista", "yaencontre": "yaencontre"}
@@ -59,12 +60,14 @@ def tarjeta(g: Grupo, estado: dict) -> str:
             f'border-radius:8px 8px 0 0;display:block">' if p.foto else "")
     desde = primera_vez(g, estado)
     falta = pendientes(g)
+    misma = normalizar(p.barrio or "").strip() in ("", normalizar(p.zona or "").strip())
+    lugar = (p.zona or "") if misma else f"{p.zona} · {p.barrio}"
     return (
         '<div class="tarjeta" style="border:1px solid #d6d3d1;border-radius:8px;margin:0 0 16px;overflow:hidden;'
         'max-width:560px">'
         f'{foto}<div style="padding:12px 14px">'
         f'<div style="font-size:22px;font-weight:700">{p.precio} €<span style="font-size:14px;font-weight:400">/mes</span></div>'
-        f'<div style="font-size:15px;margin:2px 0">{e(p.zona or "")} · {e(p.barrio or "")}</div>'
+        f'<div style="font-size:15px;margin:2px 0">{e(lugar)}</div>'
         f'<div style="font-size:14px;opacity:.8">{e(datos)}</div>'
         f'<div style="font-size:14px;margin-top:4px">{e(garaje)} &nbsp; {e(ascensor)}</div>'
         + (f'<div style="font-size:13px;color:#b45309;margin-top:4px">Por confirmar: {e(", ".join(falta))}</div>'

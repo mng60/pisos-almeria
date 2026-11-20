@@ -30,6 +30,11 @@ def test_parsear_campos_primer_anuncio():
     assert p.foto.startswith("https://fotos.imghs.net/")
 
 
+def test_foto_perezosa_data_src():
+    # Del segundo anuncio en adelante la foto va en data-src (carga perezosa).
+    assert all(p.foto and p.foto.startswith("https://") for p in _listado()[1:5])
+
+
 def test_zonas_de_pisoscom():
     assert zona_de("pisoscom", "Ciudad Jardín-Tagarete-Zapillo") == "Zapillo"
     assert zona_de("pisoscom", "Oliveros-Altamira-Barrio Alto") == "Oliveros / Altamira"

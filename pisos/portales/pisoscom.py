@@ -54,7 +54,7 @@ def parsear(html: str) -> list[Piso]:
             m2=_num(r"(\d+) m²", texto),
             planta=next((t for t in partes if re.fullmatch(r"\d+ª planta|Bajo|Ático|Entreplanta", t)), None),
             barrio=barrio,
-            foto=img.get("src") if img else None,
+            foto=(img.get("src") or img.get("data-src")) if img else None,   # del 2.º en adelante, data-src
         ))
     return pisos
 

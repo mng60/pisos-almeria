@@ -1,0 +1,58 @@
+name: pisos diario
+on:
+  schedule:
+    # 06:00 UTC = 07:00 en invierno y 08:00 en verano (hora de España). Cada 2 días: "0 6 */2 * *".
+    - cron: "0 6 * * *"
+  workflow_dispatch:     # lo lanza también el PC tras subir Idealista/yaencontre
+
+concurrency:
+  group: diario
+  cancel-in-progress: false
+
+permissions:
+  actions: write       # para el paso «Mantener vivo el cron»
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  pisos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q
+      - name: Recoger, actualizar página y enviar correos
+        run: python -m pisos.servidor
+        env:
+          GMAIL_USUARIO: ${{ secrets.GMAIL_USUARIO }}
+          GMAIL_CLAVE_APP: ${{ secrets.GMAIL_CLAVE_APP }}
+          CORREO_DESTINO: ${{ secrets.CORREO_DESTINO }}
+          CORREO_AVISOS: ${{ secrets.CORREO_AVISOS }}
+      - name: Guardar el estado (data/)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "sin cambios en data/"; exit 0; fi
+          git commit -m "datos: $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          exit 1
+      - name: Mantener vivo el cron
+        # GitHub desactiva los cron de un repositorio público tras 60 días sin actividad, y su documentación no
+        # dice si los commits del propio workflow cuentan. Volver a activarlo en cada pasada lo evita
+        # (mismo método que liskin/gh-workflow-keepalive).
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/diario.yml/enable"
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: sitio
+      - uses: actions/deploy-pages@v4
