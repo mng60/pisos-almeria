@@ -125,6 +125,6 @@ footer {{ margin:32px 0 16px; border-top:1px solid #d6d3d1; padding-top:12px; }}
 {config.BANOS} baño · garaje y ascensor</p>
 {contenido}
 <footer>Actualizado el {actualizado.strftime("%d/%m/%Y a las %H:%M")} (hora UTC). Portales consultados: {e(portales)}.
-Idealista se revisa aparte, con su propia alerta por correo.</footer>
+Idealista y yaencontre se consultan desde el PC cuando está encendido.</footer>
 </main></body></html>
 """
