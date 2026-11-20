@@ -28,8 +28,9 @@ ventana abierta. La cookie queda guardada en ese perfil para las visitas siguien
 
 ## Cómo funciona
 
-- **Cada día a las 06:00 UTC** (07:00 en invierno y 08:00 en verano, hora de España), GitHub Actions
-  (`.github/workflows/diario.yml`):
+- **Cada hora de 07:00 a 22:00** (hora de España en invierno; una hora más en verano), GitHub Actions
+  (`.github/workflows/diario.yml`). El correo solo sale cuando hay pisos nuevos, así que cada piso llega como mucho
+  una hora después de publicarse. En cada pasada:
   - consulta Fotocasa, Habitaclia, pisos.com y Milanuncios;
   - suma lo que haya subido el PC hoy o ayer;
   - publica la página https://mng60.github.io/pisos-almeria/;
@@ -75,7 +76,8 @@ ventana abierta. La cookie queda guardada en ese perfil para las visitas siguien
 ## Cambiar cosas
 
 - **Criterios** (precio, habitaciones, zonas): `pisos/config.py`.
-- **Ritmo**: en `.github/workflows/diario.yml`, cron `"0 6 */2 * *"` para cada 2 días.
+- **Ritmo**: en `.github/workflows/diario.yml`. Ahora es `"0 6-21 * * *"` (cada hora). Para una sola vez al día
+  a las 15:00 de España, `"0 14 * * *"`; cada 2 días, `"0 14 */2 * *"`.
 - **Dejar de consultar un portal**: añádelo a `PORTALES_DESACTIVADOS` en `pisos/config.py`.
 
 ## Cuando llega un aviso de fallo

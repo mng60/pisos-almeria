@@ -1,8 +1,11 @@
 name: pisos diario
 on:
   schedule:
-    # 06:00 UTC = 07:00 en invierno y 08:00 en verano (hora de España). Cada 2 días: "0 6 */2 * *".
-    - cron: "0 6 * * *"
+    # Cada hora de 06 a 21 UTC = de 07:00 a 22:00 en invierno (08:00-23:00 en verano), para que un piso nuevo
+    # llegue como mucho en una hora (los portales no avisan: hay que preguntarles). El correo solo sale si hay
+    # pisos nuevos, y el estado cuenta por día, así que varias pasadas al día no repiten nada.
+    # Una vez al día a las 15:00 de España: "0 14 * * *".
+    - cron: "0 6-21 * * *"
   workflow_dispatch:     # lo lanza también el PC tras subir Idealista/yaencontre
 
 concurrency:
