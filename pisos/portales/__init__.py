@@ -39,6 +39,23 @@ def pedir(s: requests.Session, portal: str, url: str, **kw) -> requests.Response
     return r
 
 
+def paginar(obtener, maximo: int = MAX_PAGINAS, pausa: float = 0.0) -> list:
+    """Pide páginas 1..maximo con obtener(n) -> list[Piso] y para en una vacía o en una que no trae ningún
+    id nuevo (Habitaclia, con filtros, repite la página 1 en /s/2: medido el 20/11/2026)."""
+    import time
+
+    vistos: dict[str, object] = {}
+    for n in range(1, maximo + 1):
+        nuevos = [p for p in obtener(n) if p.id not in vistos]
+        if not nuevos:
+            break
+        for p in nuevos:
+            vistos[p.id] = p
+        if pausa:
+            time.sleep(pausa)
+    return list(vistos.values())
+
+
 def entero(v) -> int | None:
     if v is None:
         return None

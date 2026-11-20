@@ -8,13 +8,11 @@ Medido el 20/11/2026 sobre tests/fixtures/fotocasa_listado.json:
 """
 from __future__ import annotations
 
-import time
-
 import requests
 
 from .. import config
 from ..modelo import Piso
-from . import MAX_PAGINAS, PAUSA, PortalCaido, entero, pedir
+from . import PAUSA, PortalCaido, entero, paginar, pedir
 
 NOMBRE = "fotocasa"
 API = "https://web.gw.fotocasa.es/v2/propertysearch/search"
@@ -60,15 +58,10 @@ def parsear(respuesta: dict) -> list[Piso]:
 
 
 def recoger(s: requests.Session) -> list[Piso]:
-    pisos: list[Piso] = []
-    for pagina in range(1, MAX_PAGINAS + 1):
+    def obtener(n: int) -> list[Piso]:
         try:
-            datos = pedir(s, NOMBRE, API, params={**PARAMS, "pageNumber": str(pagina)}).json()
+            return parsear(pedir(s, NOMBRE, API, params={**PARAMS, "pageNumber": str(n)}).json())
         except ValueError as e:
             raise PortalCaido(NOMBRE, "respuesta no es JSON") from e
-        nuevos = parsear(datos)
-        if not nuevos:
-            break
-        pisos += nuevos
-        time.sleep(PAUSA)
-    return pisos
+
+    return paginar(obtener, pausa=PAUSA)
