@@ -62,8 +62,9 @@ ventana abierta. La cookie queda guardada en ese perfil para las visitas siguien
    gh secret set CORREO_AVISOS   --repo mng60/pisos-almeria   # el correo de Miguel (fallos)
    ```
 
-3. **Comprobar** con `gh workflow run diario.yml`. Para probar también el correo de fallos, pon el secret
-   `PISOS_FORZAR_AVISO` a `1`, lanza el workflow y borra el secret después.
+3. **Comprobar** con `gh workflow run diario.yml -f enviar_todos=true -f probar_aviso=true`: manda a Belén todos
+   los pisos vigentes y a CORREO_AVISOS un aviso de prueba. Lo mismo desde la web: Actions → «pisos diario» →
+   «Run workflow». `enviar_todos` sirve también para reenviarle el resumen cuando quiera.
 4. **Parte del PC** (opcional, para Idealista y yaencontre): `python scripts/instalar_pc.py`. Comprueba lo que
    hace falta, crea las tareas programadas y hace una pasada de prueba.
 5. **Alerta propia de Idealista** (recomendada aunque esté la parte del PC):

@@ -103,7 +103,11 @@ def ejecutar(raiz: Path, portales: dict[str, Callable], hoy: date, enviar: Calla
     guardar(datos / "vistos.json", estado)
     guardar(datos / "salud.json", salud)
 
-    if entorno.get("PISOS_FORZAR_AVISO") == "1":
+    resumen_todos = entorno.get("PISOS_ENVIAR_TODOS") in ("1", "true")
+    if resumen_todos:   # primer correo, o cuando se pida: todos los vigentes, no solo los nuevos
+        grupos_nuevos = grupos
+
+    if entorno.get("PISOS_FORZAR_AVISO") in ("1", "true"):
         salud.setdefault("prueba", {"fallos_seguidos": 2, "motivo": "aviso de prueba (PISOS_FORZAR_AVISO=1)"})
         avisos = avisos + ["prueba"]
 
@@ -114,7 +118,7 @@ def ejecutar(raiz: Path, portales: dict[str, Callable], hoy: date, enviar: Calla
         return resumen
     mandar = enviar or (lambda msg: enviar_gmail(msg, usuario, clave_app))
     if entorno.get("CORREO_DESTINO"):
-        msg = correo_belen(grupos_nuevos, usuario, entorno["CORREO_DESTINO"], estado)
+        msg = correo_belen(grupos_nuevos, usuario, entorno["CORREO_DESTINO"], estado, resumen=resumen_todos)
         if msg:
             mandar(msg)
     if entorno.get("CORREO_AVISOS"):

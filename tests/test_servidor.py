@@ -114,6 +114,15 @@ def test_json_ajeno_en_data_pc_no_rompe(tmp_path):
     assert (tmp_path / "sitio" / "index.html").exists()
 
 
+def test_resumen_manda_todos_los_vigentes(tmp_path):
+    # Primer correo: los pisos ya vistos no son «nuevos», pero Belén aún no los ha recibido.
+    ok = {"fotocasa": lambda s: [_p("1"), _p("2", precio=650)]}
+    _correr(tmp_path, ok, 0, entorno={})                         # se ven sin credenciales: nadie recibe nada
+    assert _correr(tmp_path, ok, 1) == []                        # sin resumen: nada nuevo, nada que enviar
+    env = _correr(tmp_path, ok, 1, entorno=CRED | {"PISOS_ENVIAR_TODOS": "true"})
+    assert len(env) == 1 and env[0]["Subject"].startswith("🏠 2 pisos disponibles en Almería")
+
+
 def test_forzar_aviso(tmp_path):
     env = _correr(tmp_path, {"fotocasa": lambda s: [_p("1")]}, 0, entorno=CRED | {"PISOS_FORZAR_AVISO": "1"})
     assert "miguel@x.com" in [m["To"] for m in env]

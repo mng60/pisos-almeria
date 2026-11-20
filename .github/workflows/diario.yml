@@ -7,6 +7,15 @@ on:
     # Una vez al día a las 15:00 de España: "0 14 * * *".
     - cron: "0 6-21 * * *"
   workflow_dispatch:     # lo lanza también el PC tras subir Idealista/yaencontre
+    inputs:
+      enviar_todos:
+        description: "Mandar a Belén TODOS los pisos vigentes (resumen), no solo los nuevos"
+        type: boolean
+        default: false
+      probar_aviso:
+        description: "Mandar a CORREO_AVISOS un aviso de prueba"
+        type: boolean
+        default: false
 
 concurrency:
   group: diario
@@ -43,7 +52,8 @@ jobs:
           GMAIL_CLAVE_APP: ${{ secrets.GMAIL_CLAVE_APP }}
           CORREO_DESTINO: ${{ secrets.CORREO_DESTINO }}
           CORREO_AVISOS: ${{ secrets.CORREO_AVISOS }}
-          PISOS_FORZAR_AVISO: ${{ secrets.PISOS_FORZAR_AVISO }}   # README, «Comprobar»: prueba del correo de avisos
+          PISOS_FORZAR_AVISO: ${{ inputs.probar_aviso }}     # vacío en las ejecuciones del cron
+          PISOS_ENVIAR_TODOS: ${{ inputs.enviar_todos }}
       - name: Guardar el estado (data/)
         run: |
           git config user.name "github-actions[bot]"
