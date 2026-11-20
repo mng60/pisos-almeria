@@ -80,7 +80,9 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--seco", action="store_true")
     ap.add_argument("--forzar", action="store_true")
+    ap.add_argument("--retraso", type=int, default=0, help="segundos de espera antes de empezar (al iniciar sesión)")
     a = ap.parse_args()
+    time.sleep(a.retraso)
     registro = Path.home() / "AppData" / "Local" / "pisos-almeria" / "pc.log"
     registro.parent.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s",
