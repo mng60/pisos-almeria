@@ -87,6 +87,24 @@ def test_completar_no_pisa_dato_del_portal():
     assert (p.garaje, p.ascensor) == ("si", "si")
 
 
+def test_barrio_generico_busca_zona_en_descripcion():
+    p = _p(portal="milanuncios", barrio="Almería Capital", descripcion="Piso en pleno Zapillo, junto a la playa")
+    assert p.zona == "Zapillo"
+
+
+def test_centro_comercial_no_es_centro():
+    # Texto real de Milanuncios (626423392, 20/11/2026).
+    p = _p(portal="milanuncios", barrio="Almería Capital",
+           descripcion="SE ALQUILA PISO EN ZONA CENTRO COMERCIAL MEDITERRÁNEO – GARAJE INCLUIDO")
+    assert p.zona is None
+
+
+def test_barrio_concreto_no_mira_descripcion():
+    # Un piso de Retamar que menciona el Zapillo sigue fuera de zona.
+    p = _p(barrio="Retamar", descripcion="A 10 minutos del Zapillo")
+    assert p.zona is None
+
+
 def test_descripcion_negativa_gana_a_sin_dato():
     p = _p(ascensor=None, descripcion="Tercero sin ascensor")
     assert p.ascensor == "no"

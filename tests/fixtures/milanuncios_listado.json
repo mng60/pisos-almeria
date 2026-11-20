@@ -1,0 +1,4241 @@
+{
+ "ads": [
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "55 m²",
+      "raw": "55"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "12,18 €/m²",
+      "raw": "12.18"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "1º",
+      "raw": "floor_1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "D",
+      "raw": "d"
+     }
+    },
+    {
+     "field": {
+      "formatted": "agua caliente",
+      "raw": "hotWater"
+     },
+     "value": {
+      "formatted": "eléctrica",
+      "raw": "electric"
+     }
+    }
+   ],
+   "authorId": "2380327",
+   "authorName": "Alberto ",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": true,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "🏡 SE ALQUILA PISO EN ZONA CENTRO COMERCIAL MEDITERRÁNEO – GARAJE INCLUIDO\n\nSe alquila piso completo en la zona del Centro Comercial Mediterráneo, en una ubicación cómoda, con comercios, servicios y buena comunicación.\n\n🚗 Plaza de garaje incluida en el precio.\n\nRequisitos imprescindibles:\n\n* Solvencia económica.\n* Ingresos demostrables.\n* Estabilidad laboral o económica.\n* Personas responsables y cuidadosas con la vivienda.\n\nSe solicitará documentación acreditativa de ingresos y solvencia antes de formalizar el alquiler.\n\n📩 Interesados, contactar por privado para más información y concertar una visita.\n",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Garaje",
+      "raw": "garage"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "626423392",
+   "isHighlighted": false,
+   "isNew": true,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.849192,
+     "longitude": -2.4476723
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "milanuncios",
+    "provider": null
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "670 €",
+     "value": 670
+    }
+   },
+   "publicationDate": "2026-11-20T13:14:18Z",
+   "shipping": {
+    "externalCheckoutUrl": null,
+    "packageWeight": "NONE",
+    "shippable": false,
+    "type": "maexpress"
+   },
+   "sortDate": "2026-11-20T13:14:18Z",
+   "title": "Alcampo",
+   "transaction": "supply",
+   "type": "private",
+   "updateDate": "2026-11-20T13:21:44Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/alcampo-626423392.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "2",
+      "raw": "2"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "60 m²",
+      "raw": "60"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "10,00 €/m²",
+      "raw": "10.00"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "3º",
+      "raw": "floor_3"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "G",
+      "raw": "g"
+     }
+    },
+    {
+     "field": {
+      "formatted": "calefacción",
+      "raw": "heating"
+     },
+     "value": {
+      "formatted": "eléctrico",
+      "raw": "electric"
+     }
+    },
+    {
+     "field": {
+      "formatted": "agua caliente",
+      "raw": "hotWater"
+     },
+     "value": {
+      "formatted": "eléctrica",
+      "raw": "electric"
+     }
+    },
+    {
+     "field": {
+      "formatted": "playa",
+      "raw": "beachDistance"
+     },
+     "value": {
+      "formatted": "unos 200 metros",
+      "raw": "200"
+     }
+    }
+   ],
+   "authorId": "102582090",
+   "authorName": "Ángela nuñez",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": true,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "*Disponible en DICIEMBRE *\n\nSe alquila piso de 2 habitaciones en el Zapillo a UNA PERSONA O PAREJA DE TRABAJADORES, gente de paso, tele-trabajadoresEs una 3° planta sin ascensor. \n* LOS GASTOS SE PAGAN APARTE ",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Calefacción",
+      "raw": "heating"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "619794489",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.8283639,
+     "longitude": -2.451739
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "milanuncios",
+    "provider": null
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "600 €",
+     "value": 600
+    }
+   },
+   "publicationDate": "2026-10-14T15:40:29Z",
+   "shipping": {
+    "externalCheckoutUrl": null,
+    "packageWeight": "NONE",
+    "shippable": false,
+    "type": "maexpress"
+   },
+   "sortDate": "2026-11-20T08:25:22Z",
+   "title": "Zapillo - C. California",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-20T17:25:22Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/zapillo-c-california-619794489.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "3",
+      "raw": "3"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "79 m²",
+      "raw": "79"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "8,86 €/m²",
+      "raw": "8.86"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "5º",
+      "raw": "floor_5"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "E",
+      "raw": "e"
+     }
+    }
+   ],
+   "authorId": "231793395",
+   "authorName": "INMOBILIARIA NUEVA ANDALUCIA",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 000010. Piso con muebles en alquiler. Altura piso 5º, piso superficie total 79,54 m², superficie útil 70 m², hab. individuales: 2, habitaciones dobles: 1, 1 baño, aire acondicionado (frío y calor), armarios empotrados, ascensor, carpintería exterior (aluminio), carpintería interior (pino), cocina (cocina), comedor, estado conservación: buen estado, gastos de comunidad:  incluidos, lavadero, amueblado, suelos: gres. Disponemos de copia de DIA conforme Decreto 218/2005 en nuestras oficinas. # Armarios # Lavadero # Cerámica gres #",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Aire acondicionado",
+      "raw": "airConditioning"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "613655031",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.837466249725765,
+     "longitude": -2.454619564398069
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "700 €",
+     "value": 700
+    }
+   },
+   "publicationDate": "2026-09-07T09:55:14Z",
+   "shipping": null,
+   "sortDate": "2026-11-20T06:02:02Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-20T15:02:02Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-613655031.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [],
+   "authorId": "225862895",
+   "authorName": "Oscar Javier",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": true,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Busco piso de 3 dormitorios para todo el año , zona Almeria Capital , hasta 550€ al mes , es para larga temorada . tlf de contacto 698962027 Oscar.",
+   "distance": null,
+   "extras": [],
+   "id": "557896806",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.8437859,
+     "longitude": -2.4471771
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "milanuncios",
+    "provider": null
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "550 €",
+     "value": 550
+    }
+   },
+   "publicationDate": "2025-09-14T15:18:19Z",
+   "shipping": {
+    "externalCheckoutUrl": null,
+    "packageWeight": "NONE",
+    "shippable": false,
+    "type": "maexpress"
+   },
+   "sortDate": "2026-11-19T23:23:17Z",
+   "title": "Busco piso de 3 dormitorios para todo el",
+   "transaction": "demand",
+   "type": "private",
+   "updateDate": "2026-11-20T08:23:17Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/busco-piso-de-3-dormitorios-para-todo-el-557896806.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "2",
+      "raw": "2"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "60 m²",
+      "raw": "60"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "11,50 €/m²",
+      "raw": "11.50"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "2º",
+      "raw": "floor_2"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "E",
+      "raw": "e"
+     }
+    }
+   ],
+   "authorId": "231788285",
+   "authorName": "BRISA HOGAR SL",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 25521. Eres Estudiante? Erasmus?  o te han trasladado de forma temporal, Esta es tu vivienda,  se alquila moderno apartamento de dos dormitorios en pleno casco histórico, a un paso de la Catedral y de la zona de ocio, una calle que mantiene ese encanto tradicional de Almería.\nLa vivienda ha sido reformada con un diseño actual y funcional, pensada para aprovechar al máximo la famosa luz de nuestra ciudad.\n\nUbicación Premium: A pie de todos los servicios, cultura y restauración.\n\nLuz Natural: Su orientación garantiza luminosidad durante gran parte del día.\n\nEstado: Reforma integral (suelos, cocina, baño y mobiliario a estrenar). Segunda planta sin ascensor.\n\nCondiciones: Alquiler de temporada. Buscamos un perfil solvente (se realizará estudio de viabilidad para seguro de impago).\n\nUn refugio de paz y sol en el centro histórico. ¡Ven a verlo!\n\nPRECIO DE Alquiler : 690,00€\nGASTOS : Suministros y Basura.\nPRECIO FINAL : 690,00€ + importe de los suministros y Basura.\nEn cumplimiento de las obligaciones de información previstas en la Ley 10/2025, de 28 de diciembre, de servicios de atención a la clientela y transparencia, así como en la normativa sectorial vigente, se hace constar que el precio indicado no incluye los gastos e impuestos inherentes a la adquisición, los cuales se desglosan a continuación: Impuesto sobre Transmisiones Patrimoniales (ITP): Se aplicará el tipo impositivo vigente en la Comunidad Autónoma de Andalucía (generalmente el 7% (CÁLCULO _), sin perjuicio de tipos reducidos del 3,5%, 1,2% o 1% aplicables según las circunstancias personales del comprador o las características del inmueble). El impuesto se devenga sobre el Valor de Referencia de Catastro o el precio de venta, aquel que resulte superior. Gastos de Notaría: Los honorarios notariales se calcularán conforme al arancel oficial regulado en el Anexo I, del Real Decreto 1426/1989, de 17 de noviembre, por el que se aprueba el arancel Notarial. Gastos de Registro: La inscripción en el Registro de la Propiedad se facturará según el arancel oficial establecido en el ANEXO I, del Real Decreto 1427/1989, de 17 de noviembre, por el que se aprueba el arancel Notarial. Gastos de Gestión (Gestoría): Loshonorarios por la tramitación administrativa, liquidación de impuestos e inscripción registral no están incluidos en el precio y dependerán de la empresa gestora y de la forma de pago del inmueble. Honorarios Agencia del Vendedor: incluidos en el PVP. Honorarios Agencia del comprador: Se informa que eventualmente, podrían existir honorarios profesionales a cargo del adquirente, en aquellos casos, en que se hubieran contratados servicios de encargo de compra (PSI), Personal Shopper Inmobiliario. NO VINCULADOS AL PRECIO DE COMPRA. Para una información exhaustiva sobre el funcionamiento, tipos impositivos y bonificaciones del ITP en Andalucía, puede consultar el portal oficial de la Agencia Tributaria de la Junta de Andalucía en el siguiente enlace:\nhttps://www.juntadeandalucia.es/organismos/economiahaciendayfondoseuropeos/areas/tributos-juego/tributos/paginas/impuestos-cedidos-transmisiones.html; Gastos de Gestión: . Tenemos a disposición del consumidor en nuestra oficina, copia del documento informativo abreviado según decreto 218/2005, Este anuncio no es vinculante y puede contener errores. Su confianza nuestra mayor recompensa # Electrodomésticos #",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "613966278",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.84382012,
+     "longitude": -2.46183304
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "690 €",
+     "value": 690
+    }
+   },
+   "publicationDate": "2026-09-09T17:31:22Z",
+   "shipping": null,
+   "sortDate": "2026-11-19T02:04:31Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-19T11:04:31Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-613966278.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "74 m²",
+      "raw": "74"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "9,12 €/m²",
+      "raw": "9.12"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "bajo",
+      "raw": "ground"
+     }
+    }
+   ],
+   "authorId": "231812848",
+   "authorName": "Towers Inmobiliaria",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 466. NO se admiten mascotas. Necesario CONTRATO de trabajo con antigüedad suficiente y NÓMINAS por un importe de 1.500 euros/brutos en adelante.\n\n\nApartamento de obra nueva de un dormitorio, recién terminado y sin estrenar, situado en Avenida Pablo Iglesias, en pleno centro de Almería y a tan solo 3 minutos caminando de Puerta Purchena. Una ubicación privilegiada para quien busca tener el centro de la ciudad, sus comercios, restaurantes y transporte a un paso de casa.\n\nLa vivienda cuenta con 42 metros cuadrados útiles bien aprovechados, distribuidos en un dormitorio con armario empotrado, cocina independiente completamente equipada, salón y baño. Al ser una construcción recién finalizada, todo en el piso está a estrenar: instalaciones nuevas, acabados modernos y ningún desgaste previo que asumir.\n\nLa cocina viene totalmente equipada, lista para cocinar desde el primer día. El resto de la vivienda se entrega sin amueblar, para que puedas decorarla y adaptarla completamente a tu gusto. Como complemento, el piso incluye trastero, ideal para guardar maletas, bicicleta o cualquier cosa que no quieras tener a la vista en el día a día.\n\nUn piso pensado para quien valora vivir en el centro, en una vivienda nueva y sin las sorpresas de una reforma antigua, con todas las comodidades del día a día a un corto paseo.\n\n # Electrodomésticos # Armarios # Cercano al transporte público #",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Aire acondicionado",
+      "raw": "airConditioning"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Trastero",
+      "raw": "storageRoom"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "611389263",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.843971739,
+     "longitude": -2.464420184
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "675 €",
+     "value": 675
+    }
+   },
+   "publicationDate": "2026-08-24T06:30:39Z",
+   "shipping": null,
+   "sortDate": "2026-11-17T23:03:28Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-18T08:03:28Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-611389263.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "60 m²",
+      "raw": "60"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "11,67 €/m²",
+      "raw": "11.67"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "6º",
+      "raw": "floor_6"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "E",
+      "raw": "e"
+     }
+    }
+   ],
+   "authorId": "231793395",
+   "authorName": "INMOBILIARIA NUEVA ANDALUCIA",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 002435. Piso con muebles en alquiler. Disponible curso escolar. Superf. 60 m², útil 50 m²,  1 habitación doble,  1 baño, cocina, comedor, suelos (tarima flotante), ascensor, armarios, calefacción (centralizado), muebles, puerta blindada, portero automático (videoportero), vidrios dobles, año construcción (2010), gastos comunidad (incluidos), carpintería exterior (aluminio), carpintería interior (roble), aire acondicionado (centralizado), exterior, orientación (sur), piscina (comunitaria), gimnasio comunitario.  Disponemos de copia de DIA conforme Decreto 218/2005 en nuestras oficinas. # Armarios # Piscina comunitaria #",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Aire acondicionado",
+      "raw": "airConditioning"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "530492207",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.8325193,
+     "longitude": -2.4428768
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "700 €",
+     "value": 700
+    }
+   },
+   "publicationDate": "2024-11-26T20:10:41Z",
+   "shipping": null,
+   "sortDate": "2026-11-17T22:05:07Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-18T07:05:07Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-530492207.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "2",
+      "raw": "2"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "70 m²",
+      "raw": "70"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "8,57 €/m²",
+      "raw": "8.57"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "3º",
+      "raw": "floor_3"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "E",
+      "raw": "e"
+     }
+    },
+    {
+     "field": {
+      "formatted": "calefacción",
+      "raw": "heating"
+     },
+     "value": {
+      "formatted": "eléctrico",
+      "raw": "electric"
+     }
+    },
+    {
+     "field": {
+      "formatted": "agua caliente",
+      "raw": "hotWater"
+     },
+     "value": {
+      "formatted": "eléctrica",
+      "raw": "electric"
+     }
+    },
+    {
+     "field": {
+      "formatted": "playa",
+      "raw": "beachDistance"
+     },
+     "value": {
+      "formatted": "unos 10 metros",
+      "raw": "10"
+     }
+    }
+   ],
+   "authorId": "13494304",
+   "authorName": "maria pilar perez ga",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": true,
+    "form": true,
+    "phone": false,
+    "whatsapp": false
+   },
+   "description": "playa.zapillo.apartamento de dos habitaciones con aire acondicionado.seminuevo.627317449",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "625975574",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.82863,
+     "longitude": -2.4524395
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "milanuncios",
+    "provider": null
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "600 €",
+     "value": 600
+    }
+   },
+   "publicationDate": "2026-11-17T12:51:24Z",
+   "shipping": {
+    "externalCheckoutUrl": null,
+    "packageWeight": "NONE",
+    "shippable": false,
+    "type": "maexpress"
+   },
+   "sortDate": "2026-11-17T12:51:24Z",
+   "title": "Zapillo - C. Poeta Durban",
+   "transaction": "supply",
+   "type": "private",
+   "updateDate": "2026-11-17T12:51:24Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/zapillo-c-poeta-durban-625975574.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "3",
+      "raw": "3"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "107 m²",
+      "raw": "107"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "6,31 €/m²",
+      "raw": "6.31"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "2º",
+      "raw": "floor_2"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "E",
+      "raw": "e"
+     }
+    }
+   ],
+   "authorId": "231793395",
+   "authorName": "INMOBILIARIA NUEVA ANDALUCIA",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 002855. Piso con muebles en alquiler. Disponible curso escolar  (de septiembre a junio). Superf. 107 m²,  3 habitaciones (1 doble,  2 individuales),  1 baño, cocina, terraza, suelos (terrazo), muebles, carpintería exterior (aluminio color), carpintería interior (pino), gastos de comunidad incluidos. Disponemos de copia de DIA conforme Decreto 218/2005 en nuestras oficinas.",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "517747671",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.848991,
+     "longitude": -2.45799550000004
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "675 €",
+     "value": 675
+    }
+   },
+   "publicationDate": "2024-06-26T12:29:27Z",
+   "shipping": null,
+   "sortDate": "2026-11-17T05:02:40Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-17T14:02:40Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-517747671.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "3",
+      "raw": "3"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "108 m²",
+      "raw": "108"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "6,48 €/m²",
+      "raw": "6.48"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "7º",
+      "raw": "floor_7"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "E",
+      "raw": "e"
+     }
+    }
+   ],
+   "authorId": "231793395",
+   "authorName": "INMOBILIARIA NUEVA ANDALUCIA",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 004614. Piso con muebles en alquiler. Disponible curso escolar. Superf. 108 m²,  3 habitaciones (1 doble,  2 individuales),  1 baño, cocina, comedor, terraza (acristalada), suelos (terrazo), ascensor, muebles, portero automático, gastos comunidad (incluidos), exterior. Disponemos de copia de DIA conforme Decreto 218/2005 en nuestras oficinas.",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Aire acondicionado",
+      "raw": "airConditioning"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "535462164",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.8434296,
+     "longitude": -2.4588016
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "700 €",
+     "value": 700
+    }
+   },
+   "publicationDate": "2025-02-03T20:13:20Z",
+   "shipping": null,
+   "sortDate": "2026-11-17T01:05:40Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-17T10:05:40Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-535462164.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "3",
+      "raw": "3"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "95 m²",
+      "raw": "95"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "7,37 €/m²",
+      "raw": "7.37"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "5º",
+      "raw": "floor_5"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "A",
+      "raw": "a"
+     }
+    },
+    {
+     "field": {
+      "formatted": "calefacción",
+      "raw": "heating"
+     },
+     "value": {
+      "formatted": "eléctrico",
+      "raw": "electric"
+     }
+    },
+    {
+     "field": {
+      "formatted": "agua caliente",
+      "raw": "hotWater"
+     },
+     "value": {
+      "formatted": "eléctrica",
+      "raw": "electric"
+     }
+    },
+    {
+     "field": {
+      "formatted": "playa",
+      "raw": "beachDistance"
+     },
+     "value": {
+      "formatted": "unos 700 metros",
+      "raw": "700"
+     }
+    }
+   ],
+   "authorId": "15017485",
+   "authorName": "Eva",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": true,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Se alquila piso para estudiantes, funcionarios o docentes. Si desea más información contacta al tlfno: 647085833",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Terraza",
+      "raw": "terrace"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Calefacción",
+      "raw": "heating"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "625853080",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.8353947,
+     "longitude": -2.4579992
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "milanuncios",
+    "provider": null
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "700 €",
+     "value": 700
+    }
+   },
+   "publicationDate": "2026-11-16T22:17:17Z",
+   "shipping": {
+    "externalCheckoutUrl": null,
+    "packageWeight": "NONE",
+    "shippable": false,
+    "type": "maexpress"
+   },
+   "sortDate": "2026-11-16T22:17:17Z",
+   "title": "Oliveros - C. Soldado Español",
+   "transaction": "supply",
+   "type": "private",
+   "updateDate": "2026-11-16T22:17:17Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/oliveros-c-soldado-espanol-625853080.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "70 m²",
+      "raw": "70"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "10,00 €/m²",
+      "raw": "10.00"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "2º",
+      "raw": "floor_2"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "E",
+      "raw": "e"
+     }
+    }
+   ],
+   "authorId": "231793395",
+   "authorName": "INMOBILIARIA NUEVA ANDALUCIA",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 000412. Piso amueblado en alquiler. Altura piso 2º, piso superficie total 70 m², habitaciones dobles: 1, 1 baños, antigüedad entre 30 y 50 años, ascensor, balcón, carpintería exterior (aluminio), carpintería interior (sapeli), cocina, comedor, estado conservación: buen estado,  gastos de comunidad:  incluidos, orientación oeste, suelos: mármol. Disponemos de copia de DIA conforme Decreto 218/2005 en nuestras oficinas. # Armarios # Balcón #",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "494311889",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.84343745819902,
+     "longitude": -2.4611503165136175
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "700 €",
+     "value": 700
+    }
+   },
+   "publicationDate": "2023-09-12T10:07:57Z",
+   "shipping": null,
+   "sortDate": "2026-11-16T22:02:17Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-17T07:02:17Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-494311889.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "3",
+      "raw": "3"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "2",
+      "raw": "2"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "107 m²",
+      "raw": "107"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "6,54 €/m²",
+      "raw": "6.54"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "3º",
+      "raw": "floor_3"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "E",
+      "raw": "e"
+     }
+    }
+   ],
+   "authorId": "231793395",
+   "authorName": "INMOBILIARIA NUEVA ANDALUCIA",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 004996. Piso con muebles en alquiler. Disponible curso escolar. Superf. 107 m²,  3 habitaciones (2 dobles,  1 individual),  1 baño,  1 aseo, cocina, lavadero, comedor (20 metros), terraza, ascensor, muebles, año construcción (1989), carpintería exterior (aluminio), carpintería interior (sapeli), aire acondicionado (salon), gastos de comunidad incluidos. Disponemos de copia de DIA conforme Decreto 218/2005 en nuestras oficinas.. # Lavadero #",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Aire acondicionado",
+      "raw": "airConditioning"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "546794543",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.8297563,
+     "longitude": -2.450742
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "700 €",
+     "value": 700
+    }
+   },
+   "publicationDate": "2025-06-18T16:35:24Z",
+   "shipping": null,
+   "sortDate": "2026-11-15T07:04:19Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-15T16:04:19Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-546794543.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "3",
+      "raw": "3"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "80 m²",
+      "raw": "80"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "8,75 €/m²",
+      "raw": "8.75"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "3º",
+      "raw": "floor_3"
+     }
+    }
+   ],
+   "authorId": "231782523",
+   "authorName": "Costa Almeria",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 1014. Precioso ático dúplex en el Zapillo con ascensor  a  50 metros del paseo marítimo.\nGran terraza con increíbles vistas al mar, cerca de la universidad y el centro de la ciudad.\nSolo profesores .\nPara más información contactar al 666932905.",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "616059631",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.8256081,
+     "longitude": -2.4481627
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "700 €",
+     "value": 700
+    }
+   },
+   "publicationDate": "2026-09-22T08:57:28Z",
+   "shipping": null,
+   "sortDate": "2026-11-07T22:01:21Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-08T07:01:21Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-616059631.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "50 m²",
+      "raw": "50"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "14,00 €/m²",
+      "raw": "14.00"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "3º",
+      "raw": "floor_3"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "E",
+      "raw": "e"
+     }
+    }
+   ],
+   "authorId": "231793395",
+   "authorName": "INMOBILIARIA NUEVA ANDALUCIA",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 006157. Piso en alquiler con muebles. Superf. 50 m²,  1 habitación doble,  1 baño, cocina, comedor, suelos (mármol), ascensor, 1 armario empotrado, muebles, puerta blindada, portero automático, gastos comunidad (incluidos), exterior, soleado. Disponemos de copia de DIA conforme Decreto 218/2005 en nuestras oficinas. # Armarios #",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "620802012",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.840284,
+     "longitude": -2.4637718
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "700 €",
+     "value": 700
+    }
+   },
+   "publicationDate": "2026-10-21T12:05:10Z",
+   "shipping": null,
+   "sortDate": "2026-11-07T00:04:11Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-07T09:04:11Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-620802012.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "2",
+      "raw": "2"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "2",
+      "raw": "2"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "55 m²",
+      "raw": "55"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "11,82 €/m²",
+      "raw": "11.82"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "1º",
+      "raw": "floor_1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "G",
+      "raw": "g"
+     }
+    },
+    {
+     "field": {
+      "formatted": "calefacción",
+      "raw": "heating"
+     },
+     "value": {
+      "formatted": "gas natural",
+      "raw": "natural_gas"
+     }
+    },
+    {
+     "field": {
+      "formatted": "agua caliente",
+      "raw": "hotWater"
+     },
+     "value": {
+      "formatted": "gas natural",
+      "raw": "natural_gas"
+     }
+    }
+   ],
+   "authorId": "239902352",
+   "authorName": "Vitoria",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": true,
+    "form": true,
+    "phone": false,
+    "whatsapp": false
+   },
+   "description": "El inmueble cuenta con una distribución muy funcional que aprovecha al máximo la luz natural. Destaca un amplio salón-comedor totalmente exterior y luminoso, ideal para disfrutar en familia. La cocina independiente está completamente equipada y dispone de una práctica zona de lavadero y patio. Encontrarás dos dormitorios espaciosos con armarios empotrados, siendo el dormitorio principal equipado con aire acondicionado para tu máximo confort. Además, cuenta con dos baños completos en excelente estado de conservación.\n",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Garaje",
+      "raw": "garage"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "624158895",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.8217335,
+     "longitude": -2.4414173
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "milanuncios",
+    "provider": null
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "650 €",
+     "value": 650
+    }
+   },
+   "publicationDate": "2026-11-05T21:11:34Z",
+   "shipping": {
+    "externalCheckoutUrl": null,
+    "packageWeight": "NONE",
+    "shippable": false,
+    "type": "maexpress"
+   },
+   "sortDate": "2026-11-05T21:11:34Z",
+   "title": "Cortijo Grande - Av. de la Vega de Aca",
+   "transaction": "supply",
+   "type": "private",
+   "updateDate": "2026-11-05T21:11:34Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/cortijo-grande-av-de-la-vega-de-aca-624158895.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "3",
+      "raw": "3"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "118 m²",
+      "raw": "118"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "5,51 €/m²",
+      "raw": "5.51"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "4º",
+      "raw": "floor_4"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "E",
+      "raw": "e"
+     }
+    }
+   ],
+   "authorId": "231793395",
+   "authorName": "INMOBILIARIA NUEVA ANDALUCIA",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 000636. Piso con muebles en alquiler. Disponible para curso escolar. Altura piso 4º, piso superficie total 118 m², superficie útil 101 m², hab. individuales: 2, habitaciones dobles: 1, 1 baño, aire acondicionado (frío y calor), ascensor, carpintería exterior (aluminio), carpintería interior (lacada en blanco), cocina, comedor, gastos de comunidad:  incluidos, lavadero, amueblado, orientación oeste, terraza, suelos: tarima flotante. Disponemos de copia de DIA conforme Decreto 218/2005 en nuestras oficinas. # Lavadero #",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Aire acondicionado",
+      "raw": "airConditioning"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "517143591",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.84762496593981,
+     "longitude": -2.4638093297546115
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "650 €",
+     "value": 650
+    }
+   },
+   "publicationDate": "2024-06-18T12:56:14Z",
+   "shipping": null,
+   "sortDate": "2026-11-04T01:06:00Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-04T10:06:00Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-517143591.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "70 m²",
+      "raw": "70"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "9,29 €/m²",
+      "raw": "9.29"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "1º",
+      "raw": "floor_1"
+     }
+    }
+   ],
+   "authorId": "231729609",
+   "authorName": "Inversiones Playmar",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 0064LC. ¡Tu nuevo hogar te espera! Luminosidad, amplitud y confort en un solo lugar\n\nDescubre un espacio pensado para disfrutar de la comodidad y la tranquilidad que mereces.\n\nTe presentamos este atractivo apartamento en alquiler de 70 m2 construidos, una vivienda que destaca por su luminosidad, amplitud y distribución funcional, perfecta para quienes buscan un hogar acogedor y confortable.\n\nLa vivienda cuenta con un amplio dormitorio independiente, diseñado para ofrecer privacidad y descanso, además de prácticos armarios empotrados que permiten aprovechar al máximo el espacio disponible.\n\nLa luz natural es una de las grandes protagonistas de este apartamento, llenando sus estancias de calidez y creando una agradable sensación de bienestar durante todo el día.\n\nUbicado en la primera planta de un edificio sin ascensor, el inmueble se encuentra en buen estado de conservación y ofrece una excelente oportunidad para una persona o una pareja que desee disfrutar de un hogar cómodo, luminoso y con espacio suficiente para el día a día.\n\n¿Buscas un lugar donde sentirte realmente en casa? Este apartamento reúne las cualidades necesarias para convertirse en tu próximo hogar.\n\nCondiciones del alquiler: Imprescindible acreditar solvencia económica e ingresos demostrables.\n\n¡No dejes escapar esta oportunidad! # Electrodomésticos # Armarios #",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Aire acondicionado",
+      "raw": "airConditioning"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "623859762",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.828887681,
+     "longitude": -2.453047513
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "650 €",
+     "value": 650
+    }
+   },
+   "publicationDate": "2026-11-03T18:16:30Z",
+   "shipping": null,
+   "sortDate": "2026-11-03T18:16:30Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2026-11-03T18:16:33Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-623859762.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [],
+   "authorId": "44074451",
+   "authorName": "Maria Jesús",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": true,
+    "form": true,
+    "phone": false,
+    "whatsapp": false
+   },
+   "description": "BUSCO ALQUILER DE LARGA ESTANCIA EN ALMERÍA CAPITAL\nSoy funcionaria de la Administración del Estado. Me mudo a Almería en enero por traslado.\nEstoy buscando un piso de 1 o 2 habitaciones para alquiler de larga temporada, preferiblemente por El Zapillo, Ciudad Jardín, Oliveros, Centro o zonas cercanas, aunque estoy abierta a otras zonas bien comunicadas.\nPresupuesto máximo 650 € aprox.\nSi alguien sabe de algún piso que vaya a quedar disponible o tiene algún contacto, agradecería si me escribís por privado.\n¡Muchas gracias! ",
+   "distance": null,
+   "extras": [],
+   "id": "621690278",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.8345042,
+     "longitude": -2.463538
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "milanuncios",
+    "provider": null
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "650 €",
+     "value": 650
+    }
+   },
+   "publicationDate": "2026-10-27T15:48:26Z",
+   "shipping": {
+    "externalCheckoutUrl": null,
+    "packageWeight": "NONE",
+    "shippable": false,
+    "type": "maexpress"
+   },
+   "sortDate": "2026-10-27T15:48:26Z",
+   "title": "SE BUSCA ALQUILER EN ALMERÍA CAPITAL",
+   "transaction": "demand",
+   "type": "private",
+   "updateDate": "2026-10-27T15:48:26Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/se-busca-alquiler-en-almeria-capital-621690278.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "2",
+      "raw": "2"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "90 m²",
+      "raw": "90"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "6,67 €/m²",
+      "raw": "6.67"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "5º",
+      "raw": "floor_5"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "G",
+      "raw": "g"
+     }
+    },
+    {
+     "field": {
+      "formatted": "agua caliente",
+      "raw": "hotWater"
+     },
+     "value": {
+      "formatted": "eléctrica",
+      "raw": "electric"
+     }
+    }
+   ],
+   "authorId": "15677536",
+   "authorName": "Antonio Fernández",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": true,
+    "form": true,
+    "phone": false,
+    "whatsapp": false
+   },
+   "description": "Alquilo piso de dos dormitorios,en Plaza Altamira, exclusivamente a funcionarios, personal sanitario o estudiantes. Posibilidad de estancias cortas siempre que haya disponibilidad. Contactar a través de Whatsapp al número 646041007",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "618754729",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.84186935424805,
+     "longitude": -2.456218957901001
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "milanuncios",
+    "provider": null
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "600 €",
+     "value": 600
+    }
+   },
+   "publicationDate": "2026-10-08T09:38:18Z",
+   "shipping": {
+    "externalCheckoutUrl": null,
+    "packageWeight": "NONE",
+    "shippable": false,
+    "type": "maexpress"
+   },
+   "sortDate": "2026-10-08T09:38:18Z",
+   "title": "Altamira",
+   "transaction": "supply",
+   "type": "private",
+   "updateDate": "2026-10-08T09:38:18Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/altamira-618754729.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "2",
+      "raw": "2"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "70 m²",
+      "raw": "70"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "9,29 €/m²",
+      "raw": "9.29"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "1º",
+      "raw": "floor_1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "A",
+      "raw": "a"
+     }
+    },
+    {
+     "field": {
+      "formatted": "calefacción",
+      "raw": "heating"
+     },
+     "value": {
+      "formatted": "eléctrico",
+      "raw": "electric"
+     }
+    },
+    {
+     "field": {
+      "formatted": "agua caliente",
+      "raw": "hotWater"
+     },
+     "value": {
+      "formatted": "eléctrica",
+      "raw": "electric"
+     }
+    },
+    {
+     "field": {
+      "formatted": "playa",
+      "raw": "beachDistance"
+     },
+     "value": {
+      "formatted": "unos 700 metros",
+      "raw": "700"
+     }
+    }
+   ],
+   "authorId": "239662009",
+   "authorName": "Usuario",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": true,
+    "form": true,
+    "phone": false,
+    "whatsapp": false
+   },
+   "description": "🏡 ¡Vivienda recién reformada en Retamar, Almería!\n\nSe alquila preciosa vivienda completamente reformada, amueblada y equipada, ubicada en Retamar (Almería).\n\n📅 Disponible del 1 de septiembre al 30 de junio.\n\nLa vivienda cuenta con:\n\n• 2 dormitorios completamente amueblados.\n• Salón acogedor y luminoso, ideal para disfrutar de momentos de descanso.\n• Cocina equipada, moderna y funcional.\n• 1 baño completo.\n• Terraza privada, perfecta para disfrutar del aire libre y del buen clima de Almería.\n• Vivienda a estrenar, con mobiliario y equipamiento nuevos.\n• Fácil aparcamiento en la calle.\n\nUna vivienda cómoda, moderna y tranquila, perfecta para quienes buscan disfrutar de Retamar y su entorno, en una zona agradable y con todos los servicios necesarios cerca.\n\n🏡 Brand-New Renovated Home for Rent in Retamar, Almería!\n\nBeautiful fully renovated, furnished and equipped home available for rent in Retamar, Almería.\n\n📅 Available from September 1st to June 30th.\n\nThe property features:\n\n• 2 fully furnished bedrooms.\n• Bright and comfortable living room, perfect for relaxing and enjoying your time at home.\n• Modern, fully equipped kitchen, practical and functional.\n• 1 complete bathroom.\n• Private terrace, perfect for enjoying the outdoors and Almería’s wonderful climate.\n• Brand-new home, with new furniture and equipment.\n• Easy street parking available.\n\nA modern, comfortable and peaceful home, perfect for those looking to enjoy Retamar and its surroundings, in a pleasant area with all essential amenities nearby.",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Terraza",
+      "raw": "terrace"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Piscina",
+      "raw": "swimmingPool"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Amueblado",
+      "raw": "furnished"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Calefacción",
+      "raw": "heating"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Jardín",
+      "raw": "garden"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "616634761",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.8361788,
+     "longitude": -2.3091429
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "milanuncios",
+    "provider": null
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "650 €",
+     "value": 650
+    }
+   },
+   "publicationDate": "2026-09-25T17:04:59Z",
+   "shipping": {
+    "externalCheckoutUrl": null,
+    "packageWeight": "NONE",
+    "shippable": false,
+    "type": "maexpress"
+   },
+   "sortDate": "2026-09-25T17:04:59Z",
+   "title": "Retamar",
+   "transaction": "supply",
+   "type": "private",
+   "updateDate": "2026-09-25T17:04:59Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/retamar-616634761.htm",
+   "visibility": "normal"
+  },
+  {
+   "attributes": [
+    {
+     "field": {
+      "formatted": "dormitorios",
+      "raw": "bedrooms"
+     },
+     "value": {
+      "formatted": "3",
+      "raw": "3"
+     }
+    },
+    {
+     "field": {
+      "formatted": "baños",
+      "raw": "bathrooms"
+     },
+     "value": {
+      "formatted": "1",
+      "raw": "1"
+     }
+    },
+    {
+     "field": {
+      "formatted": "metros cuadrados",
+      "raw": "squareMeters"
+     },
+     "value": {
+      "formatted": "74 m²",
+      "raw": "74"
+     }
+    },
+    {
+     "field": {
+      "formatted": "€/m²",
+      "raw": "squareMeterPrice"
+     },
+     "value": {
+      "formatted": "9,46 €/m²",
+      "raw": "9.46"
+     }
+    },
+    {
+     "field": {
+      "formatted": "planta",
+      "raw": "floor"
+     },
+     "value": {
+      "formatted": "none",
+      "raw": "none"
+     }
+    },
+    {
+     "field": {
+      "formatted": "certificado energético",
+      "raw": "energyCertificate"
+     },
+     "value": {
+      "formatted": "E",
+      "raw": "e"
+     }
+    }
+   ],
+   "authorId": "235433589",
+   "authorName": "INMOBILIARIA SANTA ISABEL",
+   "categories": [
+    {
+     "id": 32,
+     "name": "Inmobiliaria",
+     "slug": "inmobiliaria"
+    },
+    {
+     "id": 156,
+     "name": "Viviendas",
+     "slug": "viviendas"
+    },
+    {
+     "id": 122,
+     "name": "Pisos",
+     "slug": "pisos"
+    },
+    {
+     "id": 132,
+     "name": "Alquiler de pisos",
+     "slug": "alquiler-de-pisos"
+    }
+   ],
+   "contactMethods": {
+    "chat": false,
+    "form": true,
+    "phone": true,
+    "whatsapp": false
+   },
+   "description": "Ref: 01761. Piso en Almeria zona Avda. santa isabel, 74 m. de superficie,  una habitación doble y 2 habitaciones sencillas,  un baño, propiedad reformada, cocina equipada, carpinteria interior de madera, orientación este oeste, suelo de tarima flotante, carpintería exterior de aluminio.\n Extras: aire acondicionado  (en salón y dormitorio principal), armarios empotrados, ascensor, balcón, luminoso, muebles, terraza,  (undefined), autobuses, árboles, céntrico, centros médicos, colegios, parques, supermercados, zona de paso\n \n Alquiler: 700 MES, comunidad incluida # Balcón # Electrodomésticos # Armarios # Cercano al transporte público #",
+   "distance": null,
+   "extras": [
+    {
+     "field": {
+      "formatted": "Ascensor",
+      "raw": "elevator"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    },
+    {
+     "field": {
+      "formatted": "Aire acondicionado",
+      "raw": "airConditioning"
+     },
+     "value": {
+      "formatted": "Sí",
+      "raw": "Yes"
+     }
+    }
+   ],
+   "id": "538443992",
+   "isHighlighted": false,
+   "isNew": false,
+   "location": {
+    "city": {
+     "id": 8,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "geolocation": {
+     "latitude": 36.8472561703647,
+     "longitude": -2.4558324052645
+    },
+    "province": {
+     "id": 4,
+     "name": "Almería",
+     "slug": "almeria"
+    },
+    "region": {
+     "id": 55,
+     "name": "Andalucía",
+     "slug": "andalucia"
+    }
+   },
+   "origin": {
+    "name": "inner",
+    "provider": "fotocasa_pro"
+   },
+   "previousPrice": null,
+   "price": {
+    "cash": {
+     "label": "700 €",
+     "value": 700
+    }
+   },
+   "publicationDate": "2025-03-11T17:13:34Z",
+   "shipping": null,
+   "sortDate": "2025-03-19T02:02:02Z",
+   "title": "Almería Capital",
+   "transaction": "supply",
+   "type": "professional",
+   "updateDate": "2025-03-19T11:02:02Z",
+   "url": "/alquiler-de-pisos-en-almeria-almeria/almeria-capital-538443992.htm",
+   "visibility": "normal"
+  }
+ ],
+ "ids": "626423392,619794489,613655031,557896806,613966278,611389263,530492207,625975574,517747671,535462164,625853080,494311889,546794543,616059631,620802012,624158895,517143591,623859762,621690278,618754729,616634761,538443992",
+ "isShippableContentSharing": [
+  {
+   "id": "626423392",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "619794489",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "613655031",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "557896806",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "613966278",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "611389263",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "530492207",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "625975574",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "517747671",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "535462164",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "625853080",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "494311889",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "546794543",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "616059631",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "620802012",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "624158895",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "517143591",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "623859762",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "621690278",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "618754729",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "616634761",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  },
+  {
+   "id": "538443992",
+   "isShippable": false,
+   "isShippableExternalCheckout": false
+  }
+ ],
+ "pagination": {
+  "nextToken": "eyJkaXIiOiJmIiwiaWQiOiI1Mzg0NDM5OTIiLCJkYXRlIjoxNzQyMzQ5NzIyMDAwLCJwcmljZSI6NzAwLCJjdXJyZW50UGFnZSI6MSwiZGlzdGFuY2UiOm51bGx9",
+  "page": 1,
+  "resultsPerPage": 30,
+  "totalHits": {
+   "relation": "eq",
+   "value": 22
+  }
+ },
+ "photos": [
+  {
+   "adId": "626423392",
+   "imageUrls": [
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/faa439a2-2ebd-48d9-945b-78b99668cd75",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/2a67ae62-f1bc-4581-adb7-f3b2c3e83514",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/18f8fdd7-82e5-4d89-b0a7-aeeecf5c2506",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/d8326f36-da11-4ff8-adcc-22a9c4a7e38a",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/7251a65f-b7bd-48da-b32b-b6ae2abc4ae3",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/47747aaf-891d-4e31-8acd-de72a77a698b",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/a4012b17-f9aa-4e73-8f00-e9bca359bf74",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/24447c4e-dd16-4c3f-90d1-51b04405cec5",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/78980dae-91b8-4b2a-96e1-17db9525f53b"
+   ],
+   "maAdId": "aa8a7b26-9c40-40b2-92b6-fc86b6da0a8c"
+  },
+  {
+   "adId": "619794489",
+   "imageUrls": [
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/22cb98fc-00e8-4dad-b7b2-c606cdc686bb",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/a974fcdc-a73a-45a0-bdde-be91eb50d917"
+   ],
+   "maAdId": "1a5258f3-d47f-4ed8-adfd-ea256f7f4bc9"
+  },
+  {
+   "adId": "613655031",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/cec19b49-2cc2-4b2e-a922-f59a8cbb8240",
+    "images-re.milanuncios.com/images/ads/2b6e1189-771b-4aff-81dc-75afa855dedc",
+    "images-re.milanuncios.com/images/ads/c905879c-cae4-4022-86da-a1654bf69bf9",
+    "images-re.milanuncios.com/images/ads/435a539a-05fe-4454-97a3-dcfb15b3e4d6",
+    "images-re.milanuncios.com/images/ads/4b671721-41ee-4300-920a-f2edc6f1cb3a",
+    "images-re.milanuncios.com/images/ads/a990961e-8398-4fa0-85f5-d34230a1abc3",
+    "images-re.milanuncios.com/images/ads/a55d6560-1809-4ced-a939-1027c2bf8d74",
+    "images-re.milanuncios.com/images/ads/6cbe89a2-3189-4969-b526-5fb67103b91e",
+    "images-re.milanuncios.com/images/ads/86b4ba40-28c9-4400-af29-81c40292f9e3",
+    "images-re.milanuncios.com/images/ads/d7de0ecf-6ac0-4c9d-9a3c-08b97d2fff12",
+    "images-re.milanuncios.com/images/ads/1df7d198-c88f-402f-916f-8e863637461d",
+    "images-re.milanuncios.com/images/ads/d150c983-af8c-4471-9af5-67b57bd1d7f7"
+   ],
+   "maAdId": "4b00ab37-d478-4bdb-a65b-6de5b12c34a0"
+  },
+  {
+   "adId": "557896806",
+   "imageUrls": [
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/4cf6142e-1308-42d0-ad10-1e6b014ad7ff"
+   ],
+   "maAdId": "5628480a-6a33-466d-bc63-3000e33f2033"
+  },
+  {
+   "adId": "613966278",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/cb0fc77f-cabd-4350-ac61-1a256b1f18d9",
+    "images-re.milanuncios.com/images/ads/9415a673-cf23-4f48-be59-5c580691e4a3",
+    "images-re.milanuncios.com/images/ads/c827d7b2-51b2-4cb5-89a8-ae6fdc911636",
+    "images-re.milanuncios.com/images/ads/b5fa922f-a4eb-4b1e-80cf-fce161cf24d9",
+    "images-re.milanuncios.com/images/ads/31ebf58f-b99b-449d-9de9-c13add0520e8",
+    "images-re.milanuncios.com/images/ads/6990c7ef-b42a-4308-be26-12d72692cbda",
+    "images-re.milanuncios.com/images/ads/74df348b-1b13-481a-a2cc-683d52de4fdc",
+    "images-re.milanuncios.com/images/ads/529128dc-7087-441a-a5d0-263e7d18c028",
+    "images-re.milanuncios.com/images/ads/6a9d1b4f-65ba-40db-8e62-54edc91bc425",
+    "images-re.milanuncios.com/images/ads/e5d6de7f-73ad-4974-b48b-2ea96e95b32b",
+    "images-re.milanuncios.com/images/ads/1258588c-3117-4acc-bda7-ade756f816a4"
+   ],
+   "maAdId": "413f3470-cf6f-407d-b1da-5eed0f6a2998"
+  },
+  {
+   "adId": "611389263",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/e31be216-77b3-467d-a473-8f5433a6b51b",
+    "images-re.milanuncios.com/images/ads/2c11aba2-61dd-48f8-99d2-b4e5e49fd463",
+    "images-re.milanuncios.com/images/ads/9729a737-4516-4f59-8c88-628dae27fdea",
+    "images-re.milanuncios.com/images/ads/792b6c4a-48c8-4beb-bfd5-4f3267c369e4",
+    "images-re.milanuncios.com/images/ads/430c96c5-3ab4-49ff-a8c3-dcc81f6e209b",
+    "images-re.milanuncios.com/images/ads/dae1b77d-364d-40ed-a9f3-9e44b522f205",
+    "images-re.milanuncios.com/images/ads/bdeb3458-f38c-48eb-b324-13af69bfdf10",
+    "images-re.milanuncios.com/images/ads/5ccd05a8-c00a-4b6a-aa98-433a389eb606",
+    "images-re.milanuncios.com/images/ads/7dba9b4a-c093-4a0b-b7f6-bc9afd7c6900",
+    "images-re.milanuncios.com/images/ads/0dbdf312-d851-4e1b-9be8-38e2a33a4a51",
+    "images-re.milanuncios.com/images/ads/c4dad759-d7b7-40bd-be6c-587d4e0a8851",
+    "images-re.milanuncios.com/images/ads/1d606564-5716-448c-ac4b-68171610b827",
+    "images-re.milanuncios.com/images/ads/2ca84bf1-5113-47b0-9a10-300e7dbcf7b0",
+    "images-re.milanuncios.com/images/ads/beb252fe-e762-4d55-a33b-4bf5a9bada63",
+    "images-re.milanuncios.com/images/ads/45b13f08-7f56-4a2a-9cf2-b16c6709d4fc",
+    "images-re.milanuncios.com/images/ads/255ee58f-eee3-490e-a9d9-2619dd0f2c5d",
+    "images-re.milanuncios.com/images/ads/761f8e2e-add0-45a3-8320-2a70298acd18",
+    "images-re.milanuncios.com/images/ads/36c9ee3f-074c-435d-8611-36ca83dc3e88",
+    "images-re.milanuncios.com/images/ads/d1867eb8-87ad-4cb4-8f96-a2f952e84091",
+    "images-re.milanuncios.com/images/ads/e594fdc7-b7c1-415a-9e98-0cea6ebabe24",
+    "images-re.milanuncios.com/images/ads/68d79c16-7090-4053-a6ae-65384a1ffb67",
+    "images-re.milanuncios.com/images/ads/d982300b-8255-41a1-b5fc-23a93a730b3d",
+    "images-re.milanuncios.com/images/ads/af8f4dd4-13d0-4bdb-91bf-499a488616b0",
+    "images-re.milanuncios.com/images/ads/d1e2affe-9a2b-4bfd-aa79-1083412f1cf8",
+    "images-re.milanuncios.com/images/ads/ea4b7a3e-617b-44e7-b4b6-bc243ee74333",
+    "images-re.milanuncios.com/images/ads/cc3b534d-a3ef-4970-9278-002b5bfe3fd2",
+    "images-re.milanuncios.com/images/ads/1f9bd402-ef6e-41c8-84c7-4e2d33a92f39",
+    "images-re.milanuncios.com/images/ads/185ffd83-dbdc-46dd-be34-d7f95d1c7b23",
+    "images-re.milanuncios.com/images/ads/c0f9e182-8b73-4122-916f-fa6335e9f8bb",
+    "images-re.milanuncios.com/images/ads/a729b4e5-e518-4493-b626-5e8b8a76f5d7",
+    "images-re.milanuncios.com/images/ads/b2b98409-3959-4029-95ad-2a7ee04481dd"
+   ],
+   "maAdId": "7db12eb2-28e0-451c-817a-a8684a82e39d"
+  },
+  {
+   "adId": "530492207",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/24bdb3cf-efda-4d30-9d92-7fa08e5a0af3",
+    "images-re.milanuncios.com/images/ads/8ec3d675-7aa0-4595-bb22-e4c97da3ca4c",
+    "images-re.milanuncios.com/images/ads/acf5b894-de51-47ce-ae22-8a1cff8e4f67",
+    "images-re.milanuncios.com/images/ads/b34cc651-ebec-4cd2-8d82-437b9d20ca7b",
+    "images-re.milanuncios.com/images/ads/e9b58f26-dab4-467f-81ef-7c36e54ee5b9",
+    "images-re.milanuncios.com/images/ads/646b9f4a-1b06-42ba-ab2f-829959228537",
+    "images-re.milanuncios.com/images/ads/cfaf0382-9e70-4508-abac-be5e8c4c45a3",
+    "images-re.milanuncios.com/images/ads/7afd74a6-fb75-4897-b94c-643c9a6ea6f8",
+    "images-re.milanuncios.com/images/ads/2a965d51-82ca-4e7e-ada2-6b2130d5f4b0",
+    "images-re.milanuncios.com/images/ads/9f471685-4d46-4578-87b2-4fd74e234176",
+    "images-re.milanuncios.com/images/ads/54dd4c78-620c-40e8-9a64-e08e9de4ac16",
+    "images-re.milanuncios.com/images/ads/46ba6f4a-dac5-4422-b229-3a838971c8f4",
+    "images-re.milanuncios.com/images/ads/d2c915ba-bb4b-4e65-a084-033bd59bd3d5"
+   ],
+   "maAdId": "dd307180-1f1f-4653-a7d5-ceb50fc9a081"
+  },
+  {
+   "adId": "625975574",
+   "imageUrls": []
+  },
+  {
+   "adId": "517747671",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/e5c1802d-add2-4801-8f80-e2619933bd0c",
+    "images-re.milanuncios.com/images/ads/57d9d7f5-96d6-4321-b6c1-540e7cdc75e5",
+    "images-re.milanuncios.com/images/ads/778f50fc-539c-4eb3-aaa1-b4d6e67fc9ae",
+    "images-re.milanuncios.com/images/ads/5b79bb6b-b674-4383-bea1-35808c0c8871",
+    "images-re.milanuncios.com/images/ads/67692b65-60be-4826-8ffb-8e6ee916b0b3",
+    "images-re.milanuncios.com/images/ads/241f573c-d488-4afd-8f32-61fa1c95cf8b",
+    "images-re.milanuncios.com/images/ads/9dc8f6e0-3032-4e01-bad9-04d79834fb45",
+    "images-re.milanuncios.com/images/ads/9ec5e8eb-295e-4317-9380-deb4637b7d6e",
+    "images-re.milanuncios.com/images/ads/6a20f04c-d512-4419-9a85-6a74e47e055e",
+    "images-re.milanuncios.com/images/ads/54b66210-07f7-4122-b67f-d0d9609d4043",
+    "images-re.milanuncios.com/images/ads/8d9bfd39-58a9-48f5-a92f-e2d75215e6a3",
+    "images-re.milanuncios.com/images/ads/f5cb7c8c-4a91-4a2a-ba73-7e1be248cf3d",
+    "images-re.milanuncios.com/images/ads/b576a3fd-50cc-4ecf-bc90-42942ccb5ccb",
+    "images-re.milanuncios.com/images/ads/db08ff38-a5bf-4bbd-be23-83697f3f6394",
+    "images-re.milanuncios.com/images/ads/244ab3c3-3b25-4e74-9d6c-b99a3ca7f4d5",
+    "images-re.milanuncios.com/images/ads/024f0e6d-a5e6-4f53-b5cb-e975bd037080",
+    "images-re.milanuncios.com/images/ads/17720ae4-3970-4df2-8c24-d977a3d263c5",
+    "images-re.milanuncios.com/images/ads/b3bf7631-692d-4159-b9d2-025c19d803bc",
+    "images-re.milanuncios.com/images/ads/058769c7-7281-4233-b243-4ddccd7dc36f",
+    "images-re.milanuncios.com/images/ads/25a1a7ab-4c7d-4f18-840c-99b35aabe178"
+   ],
+   "maAdId": "43821fb7-ad53-4df5-8c39-f88eed5b72a7"
+  },
+  {
+   "adId": "535462164",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/2801c7fa-2de7-4c1b-911a-bf5c884ddf6e",
+    "images-re.milanuncios.com/images/ads/7b396ced-df22-417c-b60f-26fdef466d79",
+    "images-re.milanuncios.com/images/ads/2578c119-7ab9-4c95-949e-20042d69d1db",
+    "images-re.milanuncios.com/images/ads/d0c8b8d9-7e37-4a59-8048-85be0f1c2238",
+    "images-re.milanuncios.com/images/ads/877df332-6cb9-4625-9b0b-07ed5a61246d",
+    "images-re.milanuncios.com/images/ads/ab016bc1-f933-4f31-882d-82c84e3bdbd6",
+    "images-re.milanuncios.com/images/ads/4a93bfeb-2203-4681-ace9-52ba43369cdf",
+    "images-re.milanuncios.com/images/ads/228add04-231f-4347-b96a-c26da8a8f390",
+    "images-re.milanuncios.com/images/ads/c3f1ab19-dc57-4780-aff3-5584c7b41aa2",
+    "images-re.milanuncios.com/images/ads/0f48ae99-2a92-43ba-b63b-62ba22578b3e",
+    "images-re.milanuncios.com/images/ads/93fb2178-5382-40c1-9f84-dfdea957f6cc",
+    "images-re.milanuncios.com/images/ads/aefd77f2-ade4-4b3d-9fee-8f980cc8d65d",
+    "images-re.milanuncios.com/images/ads/a329dfa4-0300-403d-ac30-f3977319d20b",
+    "images-re.milanuncios.com/images/ads/6d7e87d4-3261-40fc-a095-0e4e1174202d",
+    "images-re.milanuncios.com/images/ads/f79ce94b-04f0-4bd1-9495-801866c4b10b",
+    "images-re.milanuncios.com/images/ads/3df89585-9a10-46ce-b2c2-801edad73208",
+    "images-re.milanuncios.com/images/ads/1c87d234-020b-48f1-81f6-737644d74172",
+    "images-re.milanuncios.com/images/ads/a5ceccfd-2365-441f-8b6a-9243d85dd7e3",
+    "images-re.milanuncios.com/images/ads/a1e3539c-84b5-404d-9b08-7b40a0de9eec",
+    "images-re.milanuncios.com/images/ads/cdc865a1-84fb-4470-b62c-6b4613727595",
+    "images-re.milanuncios.com/images/ads/9dc450cb-f969-4693-a064-11197152b2a2",
+    "images-re.milanuncios.com/images/ads/7f067bcf-1f4a-456e-b3a1-d8aee7dc0e07",
+    "images-re.milanuncios.com/images/ads/b41efc38-3d8f-4e87-b659-9e39c0d506ef"
+   ],
+   "maAdId": "0ca0ce1a-8183-430d-ad79-5a977346de88"
+  },
+  {
+   "adId": "625853080",
+   "imageUrls": [
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/d6b72176-a256-45fa-9520-d2048f48d908",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/01fde4d2-d7b9-4158-bf5c-5e20d33919e9",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/abf6bbf9-2592-4715-a8e2-7dc90d984216",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/4fc85db1-a8cd-4b2f-a09d-5026e11e9fd8",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/dbe477ea-2198-4a16-96b9-ad83e428da4d",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/05928778-e15e-43f5-bd97-ac4ccf47e4c4",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/3eb9a907-f3b9-4775-ab08-44391bf2a8bf"
+   ],
+   "maAdId": "3d9090a4-bcb5-4d81-ac44-a385a0c16777"
+  },
+  {
+   "adId": "494311889",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/f946b0de-e95b-45ce-8310-909e7e8c94a7",
+    "images-re.milanuncios.com/images/ads/30edcde3-402c-4149-8b96-651027466d01",
+    "images-re.milanuncios.com/images/ads/637e81dd-92d1-47e6-84f7-79dff073a0e2",
+    "images-re.milanuncios.com/images/ads/96db3fd1-599a-4878-ad43-0d8e045228ac",
+    "images-re.milanuncios.com/images/ads/8eba1713-6ca3-44b5-9e8b-f0e30140b3b7",
+    "images-re.milanuncios.com/images/ads/f7b9ae81-26e6-4294-b151-7b516d881d4f",
+    "images-re.milanuncios.com/images/ads/bfdc98ed-2cf2-434e-8468-08129b8e1bef",
+    "images-re.milanuncios.com/images/ads/6877a451-be0f-463b-a6db-41a79ed05a97"
+   ],
+   "maAdId": "1ffe1cfa-012c-4b42-aa3e-bc50ac3bc319"
+  },
+  {
+   "adId": "546794543",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/e51cf900-3a95-40bc-8670-fb9092e33586",
+    "images-re.milanuncios.com/images/ads/6f2ab01a-2077-4def-8846-a84a0d0ddf84",
+    "images-re.milanuncios.com/images/ads/e50a39c5-c104-4f9d-a928-ae1646746608",
+    "images-re.milanuncios.com/images/ads/cfb24eff-69d3-49fd-9efb-0881731692b0",
+    "images-re.milanuncios.com/images/ads/0847d0e4-6aae-48bd-b76c-732bde9607cc",
+    "images-re.milanuncios.com/images/ads/92aac5eb-419f-43d1-92e3-fa7a7b9b5e95",
+    "images-re.milanuncios.com/images/ads/bc370a3f-535e-4ac2-ab2d-8d49eb0323e8",
+    "images-re.milanuncios.com/images/ads/24b03397-10a6-41f6-aeac-25fe36e77ba5",
+    "images-re.milanuncios.com/images/ads/62a95af0-24d8-4d01-8484-c5ff449a2628",
+    "images-re.milanuncios.com/images/ads/f953fd2e-0a4f-43cb-b7ab-badb69312a69",
+    "images-re.milanuncios.com/images/ads/2838ac88-1c20-4737-810c-72ddce6851f5",
+    "images-re.milanuncios.com/images/ads/be241c79-2e69-423f-9e18-15e857bb0cac",
+    "images-re.milanuncios.com/images/ads/e5eb8dc7-509f-43e1-bfbc-db2bf095db19",
+    "images-re.milanuncios.com/images/ads/5a06bdc5-bb00-4a13-8dc8-3c207866300c",
+    "images-re.milanuncios.com/images/ads/2a4108c4-bdcd-449b-952e-a16726384f19",
+    "images-re.milanuncios.com/images/ads/45496bca-2cc8-46b9-a84f-d9b0b98f8c88",
+    "images-re.milanuncios.com/images/ads/4179ece4-e3bb-41dd-8cfc-2ea93fa7097d",
+    "images-re.milanuncios.com/images/ads/afe22cb7-daf5-4b4f-b368-a31613f0c6cf",
+    "images-re.milanuncios.com/images/ads/715e3112-ba9e-45e5-8c5c-842af666ffe2"
+   ],
+   "maAdId": "4a8fca10-de77-4996-a887-a18b181bfdd9"
+  },
+  {
+   "adId": "616059631",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/8895a752-329f-4878-bfc3-849ae0f39180",
+    "images-re.milanuncios.com/images/ads/430efcc8-2bb2-4e1a-a5ca-2b4507fdc8ae",
+    "images-re.milanuncios.com/images/ads/5d973d3d-9b84-4f8c-8d1b-e571a845b9d5"
+   ],
+   "maAdId": "e1952c47-f82a-4574-a18c-9b83c5fc0db3"
+  },
+  {
+   "adId": "620802012",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/9ad7fca4-c035-4f93-812d-6c73e649b39b",
+    "images-re.milanuncios.com/images/ads/b9f0b531-3011-4c7d-afd1-e8cfe19aad80",
+    "images-re.milanuncios.com/images/ads/7b171c58-9451-4146-af79-4034cad45cd1",
+    "images-re.milanuncios.com/images/ads/3ebbe762-4e71-4828-8084-d1c16f164f72",
+    "images-re.milanuncios.com/images/ads/f856992b-2a6c-4cb7-bb3b-f339dfda8700",
+    "images-re.milanuncios.com/images/ads/b9306f86-1fc6-4669-a536-c06d2752b7ef",
+    "images-re.milanuncios.com/images/ads/6180f903-95aa-41de-b673-90d756f50211",
+    "images-re.milanuncios.com/images/ads/3f0f2997-3bc7-4517-aa9d-3c51b27e2ea1",
+    "images-re.milanuncios.com/images/ads/6d07dccc-6329-4c15-870a-3c372b441131",
+    "images-re.milanuncios.com/images/ads/ce595ac1-0f07-4bf9-a385-afc60fd7efff"
+   ],
+   "maAdId": "0a9f8dcb-df9e-4a92-b6d0-d68072f1ea4b"
+  },
+  {
+   "adId": "624158895",
+   "imageUrls": [
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/057fdc65-6d7e-48fa-8b90-8e87ae2cbb1a",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/5074cadc-5e4f-4621-827d-06a8afd0f79e",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/a2b7b918-9dc7-4ee2-984e-e8fd3386508e",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/915620c3-75d0-4afe-a45b-8bed69735865",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/1ebe58fa-f2fa-4291-b5c5-75be059d8f82"
+   ],
+   "maAdId": "ceaaecfd-006f-46af-8060-9e81ec51d570"
+  },
+  {
+   "adId": "517143591",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/8e61e77d-ca72-42b6-a565-bcaf0d214ccd"
+   ],
+   "maAdId": "83a6ad5c-d95d-4e4b-bd29-61ec33a9119d"
+  },
+  {
+   "adId": "623859762",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/55359948-1cbc-416c-ba4b-8da61b6c2269",
+    "images-re.milanuncios.com/images/ads/008ddd58-cfda-4f4d-b237-607fd0e9e29b",
+    "images-re.milanuncios.com/images/ads/d82d6434-99fe-4f2b-9352-2162e3ca10c4",
+    "images-re.milanuncios.com/images/ads/f5096426-1ca7-4b75-891b-aaf9f4911ae3",
+    "images-re.milanuncios.com/images/ads/00db10e0-d26a-4925-a2de-c30b3d685742",
+    "images-re.milanuncios.com/images/ads/4e21a6ba-a85e-44fc-8149-1c2880dbcff4",
+    "images-re.milanuncios.com/images/ads/7fe24299-602b-4053-be75-fd035e3b1b05",
+    "images-re.milanuncios.com/images/ads/f6ace516-4e4d-4127-91ba-677109111155",
+    "images-re.milanuncios.com/images/ads/02fa15a8-c5f1-49e0-84ae-b77e4931b002",
+    "images-re.milanuncios.com/images/ads/c3b6575d-e4f4-4796-96f8-b7361792a7ae",
+    "images-re.milanuncios.com/images/ads/76c8fae8-c291-4225-8e99-24bebcd46726",
+    "images-re.milanuncios.com/images/ads/768df3e1-ae64-4c39-8fdd-2efb4a8f5b5b",
+    "images-re.milanuncios.com/images/ads/9811c5a6-6c1e-401e-a546-2af88b4f3b41",
+    "images-re.milanuncios.com/images/ads/4e828695-e2f2-46a8-b9dd-d4c89ce1f562",
+    "images-re.milanuncios.com/images/ads/7d95a6ed-e1b8-431f-929d-e643aea3fbce",
+    "images-re.milanuncios.com/images/ads/977df89f-d8db-419a-a4e5-dc9bd9493c8c"
+   ],
+   "maAdId": "20a7d462-ab88-47d6-a8ee-8f84f8158b59"
+  },
+  {
+   "adId": "621690278",
+   "imageUrls": [
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/7632c688-d79f-4010-915a-e7d60fbd1d4b"
+   ],
+   "maAdId": "ff110456-8f6d-4b5b-95b0-9975c659551f"
+  },
+  {
+   "adId": "618754729",
+   "imageUrls": []
+  },
+  {
+   "adId": "616634761",
+   "imageUrls": [
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/9faac2d0-067c-444f-a001-7ca4be8f357f",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/81dcaf21-32ab-41ba-8089-c7321532300c",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/5e130109-76b1-4584-9c2f-95d82765d7fb",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/9249e6ad-1c5f-4afb-96a8-fef703cf2c22",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/1d11ff17-c91f-4e35-8c84-906660052d95",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/2428c021-748e-4535-823a-d796d1812db2",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/baf33da3-2482-499b-bab6-cae5155c830e",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/29343271-f74a-4b1c-9549-5e8a27b7be92",
+    "images.milanuncios.com/api/v1/ma-ad-media-pro/images/d2f5e22d-a975-41cb-be52-441eb38146c3"
+   ],
+   "maAdId": "dcce1c4a-3042-48f1-92cf-ec695d2c3844"
+  },
+  {
+   "adId": "538443992",
+   "imageUrls": [
+    "images-re.milanuncios.com/images/ads/a452c93e-6f83-40fd-969c-76d7613e1622",
+    "images-re.milanuncios.com/images/ads/fcfd8e2e-055a-4a51-8377-35b7712d461b",
+    "images-re.milanuncios.com/images/ads/7c1e34da-a1b4-4962-8aba-ca25ed7e45a0",
+    "images-re.milanuncios.com/images/ads/09fad5a7-6845-4882-b25a-cee311ec7eae",
+    "images-re.milanuncios.com/images/ads/e3f58f2c-2549-4a9b-9f96-856071e742ae",
+    "images-re.milanuncios.com/images/ads/2a5dba3b-b01a-46e9-8a5e-4261fbc68bdc",
+    "images-re.milanuncios.com/images/ads/04942a72-9aae-4601-a50b-bdb4f686defd",
+    "images-re.milanuncios.com/images/ads/b5e8c670-4ec6-4b6e-87c3-9c2fe12c247e",
+    "images-re.milanuncios.com/images/ads/917385b4-7ba7-494a-855c-4c45cf1b6bd6",
+    "images-re.milanuncios.com/images/ads/55e4e8f2-7686-4242-bbff-2a3cb6b49b7c",
+    "images-re.milanuncios.com/images/ads/6a907a28-2447-4fe6-9e21-bc601bd03fa9",
+    "images-re.milanuncios.com/images/ads/e6c79e35-003e-402b-984f-34c9a0c74537",
+    "images-re.milanuncios.com/images/ads/1f59705d-3da0-4aa7-b043-018bcda214b0",
+    "images-re.milanuncios.com/images/ads/a90ddebe-876f-4dd1-8d67-613ab4d340f9",
+    "images-re.milanuncios.com/images/ads/9f7c249b-f41c-4afe-94de-faa95bbf677d",
+    "images-re.milanuncios.com/images/ads/0a209c4a-075b-452a-8446-1e5b91120d3f",
+    "images-re.milanuncios.com/images/ads/39122909-8946-4af8-a632-168e7a115652",
+    "images-re.milanuncios.com/images/ads/2a495da6-ab66-407c-98b5-9cc9617a52f7",
+    "images-re.milanuncios.com/images/ads/bd1b83fb-b452-44f3-bc7c-325838efe982",
+    "images-re.milanuncios.com/images/ads/0f299a64-122e-4943-924d-f56f2e920655",
+    "images-re.milanuncios.com/images/ads/e70ef258-8ae5-4b2b-b37b-e02015d4af0a",
+    "images-re.milanuncios.com/images/ads/d22ac04a-fa3a-4bc6-8921-4f00d31df107",
+    "images-re.milanuncios.com/images/ads/844429db-1795-431a-ac05-5be6a8d77fe4",
+    "images-re.milanuncios.com/images/ads/b5b89f72-a579-45a2-b929-3697af23f9a9",
+    "images-re.milanuncios.com/images/ads/266a0218-f16b-4344-8db1-8784739d2510",
+    "images-re.milanuncios.com/images/ads/13c1d693-1bf6-4b48-8600-a1ed9fbfd232",
+    "images-re.milanuncios.com/images/ads/2c6951af-3030-4684-a602-195109c56c32",
+    "images-re.milanuncios.com/images/ads/cb3d0b47-2bc6-4915-b6e1-16d97f945898",
+    "images-re.milanuncios.com/images/ads/b465cfb7-e7b0-4d31-90db-39106ba95585",
+    "images-re.milanuncios.com/images/ads/30917c71-d88a-48f1-94c2-d66270fabf6e",
+    "images-re.milanuncios.com/images/ads/a857a947-ae2a-4bdc-9225-79c35a956428",
+    "images-re.milanuncios.com/images/ads/5435ba68-35c5-4532-b2b6-d6224fb363af",
+    "images-re.milanuncios.com/images/ads/5e601592-fafa-45a9-bb60-baac19b79b3c",
+    "images-re.milanuncios.com/images/ads/a0671e1e-2034-4401-bda5-41f04d7e4716",
+    "images-re.milanuncios.com/images/ads/02e34eee-bf74-4c40-80d6-01a6b384a222",
+    "images-re.milanuncios.com/images/ads/84fbc0b8-93dd-4c28-8fe1-47f0ccadefe0",
+    "images-re.milanuncios.com/images/ads/89755706-90fd-47f8-bd15-ce31bec3fe69",
+    "images-re.milanuncios.com/images/ads/c677e49a-8d69-462d-adf9-c681eeb5289e",
+    "images-re.milanuncios.com/images/ads/9b1d491f-21b6-4d31-afae-ed8dc99ef51f"
+   ],
+   "maAdId": "29576fec-4c2c-4ed7-95da-cc2be0212719"
+  }
+ ],
+ "status": [
+  {
+   "adId": "494311889",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "517143591",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "517747671",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "530492207",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "535462164",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "538443992",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "546794543",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "557896806",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "611389263",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "613655031",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "613966278",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "616059631",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "616634761",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "618754729",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "619794489",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "620802012",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "621690278",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "623859762",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "624158895",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "625853080",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "625975574",
+   "reserveStatus": "RELEASED"
+  },
+  {
+   "adId": "626423392",
+   "reserveStatus": "RELEASED"
+  }
+ ]
+}

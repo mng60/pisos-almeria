@@ -25,15 +25,32 @@ def zona_de(portal: str, barrio: str | None) -> str | None:
     return " / ".join(halladas) or None
 
 
+GENERICOS = {"", "almeria", "almeria capital"}
+# «Centro» que no es el barrio Centro (texto real de Milanuncios: «zona centro comercial Mediterráneo»).
+FALSO_CENTRO = re.compile(r"centro (comercial|de salud|medico|deportivo|educativo|escolar|de dia|cultural)")
+
+
+def zona_en_texto(texto: str | None) -> str | None:
+    """Zona citada en un texto libre (título o descripción), sin los «centro comercial» y similares."""
+    if not texto:
+        return None
+    return zona_de("", FALSO_CENTRO.sub(" ", normalizar(texto)))
+
+
 def completar(p: Piso) -> Piso:
     """Rellena zona y, si el portal no los da, garaje y ascensor leyendo la descripción.
 
-    El dato estructurado del portal manda; la descripción solo rellena lo que falta.
+    El dato estructurado del portal manda; la descripción solo rellena lo que falta. La zona solo se busca
+    en la descripción si el portal no da un barrio concreto (falta o es «Almería Capital»): un piso de
+    Retamar que dice «a 10 minutos del Zapillo» sigue siendo de Retamar.
     """
     garaje, nota = detectar_garaje(p.descripcion)
+    zona = p.zona or zona_de(p.portal, p.barrio)
+    if zona is None and normalizar(p.barrio or "").strip() in GENERICOS:
+        zona = zona_en_texto(p.descripcion)
     return replace(
         p,
-        zona=p.zona or zona_de(p.portal, p.barrio),
+        zona=zona,
         garaje=p.garaje or garaje,
         nota_garaje=p.nota_garaje or nota,
         ascensor=p.ascensor or detectar_ascensor(p.descripcion),
