@@ -1,6 +1,7 @@
 {
  "idealista:102535568": {
   "ausencias": 0,
+  "descartado": false,
   "piso": {
    "ascensor": "si",
    "banos": 1,
@@ -23,6 +24,7 @@
  },
  "idealista:109485526": {
   "ausencias": 0,
+  "descartado": false,
   "piso": {
    "ascensor": "si",
    "banos": 1,
@@ -45,6 +47,7 @@
  },
  "milanuncios:618754729": {
   "ausencias": 0,
+  "descartado": false,
   "piso": {
    "ascensor": null,
    "banos": 1,
@@ -67,6 +70,7 @@
  },
  "milanuncios:625975574": {
   "ausencias": 0,
+  "descartado": false,
   "piso": {
    "ascensor": null,
    "banos": 1,
@@ -89,6 +93,7 @@
  },
  "pisoscom:65090503121_531948": {
   "ausencias": 0,
+  "descartado": false,
   "piso": {
    "ascensor": null,
    "banos": 1,
