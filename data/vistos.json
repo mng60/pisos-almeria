@@ -1,0 +1,68 @@
+{
+ "milanuncios:618754729": {
+  "ausencias": 0,
+  "piso": {
+   "ascensor": null,
+   "banos": 1,
+   "barrio": "Altamira",
+   "foto": null,
+   "garaje": null,
+   "habitaciones": 2,
+   "id": "618754729",
+   "m2": 90,
+   "nota_garaje": null,
+   "planta": "5º",
+   "portal": "milanuncios",
+   "precio": 600,
+   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-almeria-almeria/altamira-618754729.htm",
+   "zona": "Altamira"
+  },
+  "primera_vez": "2026-11-20",
+  "ultima_ausencia": null,
+  "ultima_vez": "2026-11-20"
+ },
+ "milanuncios:625975574": {
+  "ausencias": 0,
+  "piso": {
+   "ascensor": null,
+   "banos": 1,
+   "barrio": "Zapillo - C. Poeta Durban",
+   "foto": null,
+   "garaje": null,
+   "habitaciones": 2,
+   "id": "625975574",
+   "m2": 70,
+   "nota_garaje": null,
+   "planta": "3º",
+   "portal": "milanuncios",
+   "precio": 600,
+   "url": "https://www.milanuncios.com/alquiler-de-pisos-en-almeria-almeria/zapillo-c-poeta-durban-625975574.htm",
+   "zona": "Zapillo"
+  },
+  "primera_vez": "2026-11-20",
+  "ultima_ausencia": null,
+  "ultima_vez": "2026-11-20"
+ },
+ "pisoscom:65090503121_531948": {
+  "ausencias": 0,
+  "piso": {
+   "ascensor": null,
+   "banos": 1,
+   "barrio": "Ciudad Jardín-Tagarete-Zapillo",
+   "foto": "https://fotos.imghs.net/mm-wp/531948/65090503121.531948/531948_65090503121_62519fea-c784-4cfb-afe1-3f3522b2e6fd.jpg",
+   "garaje": null,
+   "habitaciones": 2,
+   "id": "65090503121_531948",
+   "m2": 75,
+   "nota_garaje": null,
+   "planta": "Bajo",
+   "portal": "pisoscom",
+   "precio": 700,
+   "url": "https://www.pisos.com/alquilar/piso-ciudad_jardin_tagarete_zapillo04007-65090503121_531948/",
+   "zona": "Zapillo"
+  },
+  "primera_vez": "2026-11-20",
+  "ultima_ausencia": null,
+  "ultima_vez": "2026-11-20"
+ }
+}
