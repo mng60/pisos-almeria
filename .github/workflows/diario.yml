@@ -31,8 +31,6 @@ jobs:
   pisos:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    environment:
-      name: github-pages
     steps:
       - uses: actions/checkout@v4
       - name: Ponerse al día con main
@@ -73,4 +71,14 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: sitio
+
+  # Publicar va en un trabajo aparte, como en el esquema oficial de GitHub Pages: dentro del mismo trabajo,
+  # deploy-pages no encontraba el artefacto recién subido (medido el 20/11/2026: 2 fallos seguidos con el
+  # artefacto presente después).
+  publicar:
+    needs: pisos
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
       - uses: actions/deploy-pages@v4
