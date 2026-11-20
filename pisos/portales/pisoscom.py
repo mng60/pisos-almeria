@@ -93,7 +93,10 @@ def recoger(s: requests.Session) -> list[Piso]:
     for p in pisos:
         if (config.PRECIO_MIN <= p.precio <= config.PRECIO_MAX and p.habitaciones == config.HABITACIONES
                 and zona_de(NOMBRE, p.barrio) is not None):
-            f = parsear_ficha(pedir(s, NOMBRE, p.url).text)
+            try:
+                f = parsear_ficha(pedir(s, NOMBRE, p.url).text)
+            except PortalCaido:
+                continue   # una ficha caída no tira el portal: el piso se queda con lo del listado
             p.descripcion = f["descripcion"]
             p.ascensor = p.ascensor or f["ascensor"]
             p.garaje = p.garaje or f["garaje"]

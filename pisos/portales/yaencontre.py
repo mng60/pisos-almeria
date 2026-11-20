@@ -85,7 +85,10 @@ def recoger(abrir: Callable[[str], str]) -> list[Piso]:
     pisos = paginar(lambda n: parsear(abrir(LISTADO if n == 1 else f"{LISTADO}/pag-{n}")), maximo=MAX_PAGINAS_PC)
     for p in pisos:
         if clasificar(completar(p)) == "confirmar":
-            f = parsear_ficha(abrir(p.url))
+            try:
+                f = parsear_ficha(abrir(p.url))
+            except PortalCaido:
+                continue   # una ficha caída no tira el portal: el piso se queda con lo del listado
             p.descripcion = f["descripcion"]
             p.ascensor = p.ascensor or f["ascensor"]
             p.garaje = p.garaje or f["garaje"]

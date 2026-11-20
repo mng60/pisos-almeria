@@ -38,6 +38,9 @@ def ejecutar(raiz: Path, recolectores: dict[str, Callable[[], list]], ahora: dat
     ruta = raiz / "data" / "pc" / f"{ahora.date().isoformat()}.json"
     if not forzar and _hoy_ya_bien(ruta):
         log.info("hoy ya hay datos buenos (%s): no se vuelve a consultar", ruta.name)
+        if git and not subido(raiz, ruta):
+            log.info("…pero no se llegó a subir: se sube ahora")
+            subir(raiz, ruta)
         return {"escrito": False}
     portales: dict[str, list | dict] = {}
     for nombre, recoger in recolectores.items():
@@ -63,16 +66,33 @@ def _git(raiz: Path, *args: str) -> subprocess.CompletedProcess:
     return subprocess.run(["git", "-C", str(raiz), *args], capture_output=True, text=True)
 
 
+def subido(raiz: Path, ruta: Path) -> bool:
+    """El fichero está en origin/main tal cual (sin cambios locales)."""
+    rel = ruta.relative_to(raiz).as_posix()
+    _git(raiz, "fetch", "-q", "origin")
+    limpio = _git(raiz, "status", "--porcelain", "--", rel).stdout.strip() == ""
+    en_remoto = _git(raiz, "log", "-1", "--format=%H", "origin/main", "--", rel).stdout.strip() != ""
+    return limpio and en_remoto
+
+
+def relanzar_workflow(raiz: Path) -> None:
+    subprocess.run(["gh", "workflow", "run", "diario.yml"], cwd=raiz, check=True)
+
+
 def subir(raiz: Path, ruta: Path) -> None:
-    _git(raiz, "add", str(ruta.relative_to(raiz)))
-    _git(raiz, "commit", "-q", "-m", f"datos PC: {ruta.stem}")
+    """Commit SOLO del fichero del PC y push. --autostash: un cambio local sin guardar en el repositorio no
+    impide subir (antes «You have unstaged changes» lo tumbaba en silencio: revisión final)."""
+    rel = ruta.relative_to(raiz).as_posix()
+    _git(raiz, "add", "--", rel)
+    _git(raiz, "commit", "-q", "-m", f"datos PC: {ruta.stem}", "--", rel)
     for intento in range(3):
-        if _git(raiz, "pull", "--rebase", "-q").returncode == 0 and _git(raiz, "push", "-q").returncode == 0:
+        if (_git(raiz, "pull", "--rebase", "--autostash", "-q", "origin", "main").returncode == 0
+                and _git(raiz, "push", "-q", "origin", "HEAD:main").returncode == 0):
             break
         time.sleep(10)
     else:
         raise RuntimeError("no se pudo subir data/pc tras 3 intentos")
-    subprocess.run(["gh", "workflow", "run", "diario.yml"], cwd=raiz, check=True)
+    relanzar_workflow(raiz)
     log.info("subido %s y relanzado el workflow", ruta.name)
 
 

@@ -17,10 +17,14 @@ def _p(id_, portal="fotocasa", **kw):
     return Piso(**base)
 
 
-def _correr(raiz, portales, n, entorno=CRED):
+def _correr(raiz, portales, n, entorno=CRED, pc=()):
+    """pc: portales que vienen del PC. Por defecto ninguno; los tests del PC pasan los suyos."""
     enviados = []
-    ejecutar(raiz, portales, D1 + timedelta(days=n), lambda msg: enviados.append(msg), entorno)
+    ejecutar(raiz, portales, D1 + timedelta(days=n), lambda msg: enviados.append(msg), entorno, list(pc))
     return enviados
+
+
+PC = ("idealista", "yaencontre")
 
 
 def test_ejecutar_extremo_a_extremo(tmp_path):
@@ -69,12 +73,45 @@ def test_datos_del_pc_recientes_cuentan(tmp_path):
     (pc / "2026-11-10.json").write_text(json.dumps({
         "fecha": "2026-11-10T09:00:00", "portales": {"idealista": [_p("viejo", "idealista").a_dict()]}}),
         encoding="utf-8")
-    env = _correr(tmp_path, {}, 0)
+    env = _correr(tmp_path, {}, 0, pc=PC)
     assert "Ver en Idealista" in env[0].get_body(("html",)).get_content()
     vistos = (tmp_path / "data" / "vistos.json").read_text(encoding="utf-8")
     assert "idealista:99" in vistos and "viejo" not in vistos
     salud = json.loads((tmp_path / "data" / "salud.json").read_text(encoding="utf-8"))
     assert salud["yaencontre"]["fallos_seguidos"] == 1
+
+
+def _fichero_pc(tmp_path, fecha, portales):
+    pc = tmp_path / "data" / "pc"
+    pc.mkdir(parents=True, exist_ok=True)
+    (pc / f"{fecha}.json").write_text(json.dumps({"fecha": f"{fecha}T09:00:00", "portales": portales}),
+                                      encoding="utf-8")
+
+
+def test_un_captcha_suelto_del_pc_no_avisa(tmp_path):
+    # Revisión final: el «caido» de ayer se volvía a contar hoy y avisaba al segundo día con un solo fallo.
+    _fichero_pc(tmp_path, "2026-11-21", {"idealista": {"caido": "captcha"}, "yaencontre": []})
+    assert _correr(tmp_path, {}, 0, pc=PC) == []
+    assert _correr(tmp_path, {}, 1, pc=PC) == []
+    salud = json.loads((tmp_path / "data" / "salud.json").read_text(encoding="utf-8"))
+    assert salud["idealista"]["fallos_seguidos"] == 1
+
+
+def test_pc_apagado_avisa(tmp_path):
+    # Sin datos del PC de hoy ni de ayer, sus portales cuentan como caídos: al 2.º día, aviso a Miguel.
+    _fichero_pc(tmp_path, "2026-11-21", {"idealista": [], "yaencontre": []})
+    for n in (0, 1, 2):
+        assert _correr(tmp_path, {}, n, pc=PC) == []
+    assert _correr(tmp_path, {}, 3, pc=PC)[0]["To"] == "miguel@x.com"
+
+
+def test_json_ajeno_en_data_pc_no_rompe(tmp_path):
+    pc = tmp_path / "data" / "pc"
+    pc.mkdir(parents=True)
+    (pc / "notas.json").write_text('{"otra": 1}', encoding="utf-8")
+    (pc / "roto.json").write_text("{no es json", encoding="utf-8")
+    _correr(tmp_path, {"fotocasa": lambda s: [_p("1")]}, 0)
+    assert (tmp_path / "sitio" / "index.html").exists()
 
 
 def test_forzar_aviso(tmp_path):

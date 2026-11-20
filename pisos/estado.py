@@ -13,7 +13,7 @@ Un portal que no viene en `recogidos` (Idealista con el PC apagado) no se ha con
 from __future__ import annotations
 
 import json
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 from . import config
@@ -22,6 +22,7 @@ from .modelo import Piso
 from .portales import PortalCaido
 
 REPETIR_AVISO_DIAS = 7
+DIAS_MAX_SIN_VER = 7   # un piso que nadie ha visto en 7 días sale, se haya consultado su portal o no
 
 
 def clave(p: Piso) -> str:
@@ -64,14 +65,17 @@ def actualizar(estado: dict, salud: dict, recogidos: dict[str, list[Piso] | Port
         vistos_hoy = set()
         for p in r:
             c = clave(p)
-            if clasificar(p) == "descartar":
-                estado.pop(c, None)   # p. ej. subió de precio: deja de mostrarse
-                continue
+            descartado = clasificar(p) == "descartar"
+            if descartado and c not in estado:
+                continue   # nunca se guarda lo que nunca ha cumplido
             vistos_hoy.add(c)
             if c not in estado:
                 nuevos.append(p)
                 estado[c] = {"primera_vez": dia}
-            estado[c].update(piso=p.a_dict(), ultima_vez=dia, ausencias=0, ultima_ausencia=None)
+            # Un piso que deja de cumplir (sube de precio) se marca y no se borra: si vuelve a cumplir no es
+            # «nuevo» y no se reenvía (hallazgo de la revisión final).
+            estado[c].update(piso=p.a_dict(), ultima_vez=dia, ausencias=0, ultima_ausencia=None,
+                             descartado=descartado)
 
         for c in [c for c, v in estado.items() if v["piso"]["portal"] == portal and c not in vistos_hoy]:
             v = estado[c]
@@ -80,4 +84,14 @@ def actualizar(estado: dict, salud: dict, recogidos: dict[str, list[Piso] | Port
                 v["ultima_ausencia"] = dia
                 if v["ausencias"] >= config.DIAS_PARA_RETIRAR:
                     del estado[c]
+
+    # Tope de antigüedad para todos, también de portales que no se consultan (el PC apagado un mes).
+    limite = (hoy - timedelta(days=DIAS_MAX_SIN_VER)).isoformat()
+    for c in [c for c, v in estado.items() if v.get("ultima_vez", dia) < limite]:
+        del estado[c]
     return nuevos, avisos
+
+
+def vigentes(estado: dict) -> list[Piso]:
+    """Los pisos que se enseñan: los guardados que no están marcados como descartados."""
+    return [Piso.de_dict(v["piso"]) for v in estado.values() if not v.get("descartado")]

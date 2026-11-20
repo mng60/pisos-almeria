@@ -98,6 +98,32 @@ def test_portal_no_consultado_no_cuenta():
     assert s["idealista"]["fallos_seguidos"] == 0
 
 
+def test_descartado_y_vuelve_no_se_reenvia():
+    # Revisión final: un piso que pasa a descartado (sube de precio) y vuelve se mandaba dos veces.
+    e, s = {}, {}
+    assert len(_dia(e, s, {"fotocasa": [_p()]}, 0)[0]) == 1
+    assert _dia(e, s, {"fotocasa": [_p(precio=900)]}, 1)[0] == []
+    assert _dia(e, s, {"fotocasa": [_p()]}, 2)[0] == []
+
+
+def test_descartado_no_es_vigente():
+    from pisos.estado import vigentes
+    e, s = {}, {}
+    _dia(e, s, {"fotocasa": [_p("1"), _p("2")]}, 0)
+    _dia(e, s, {"fotocasa": [_p("1"), _p("2", precio=900)]}, 1)
+    assert [p.id for p in vigentes(e)] == ["1"]
+
+
+def test_sin_ver_mas_de_7_dias_se_retira_aunque_no_se_consulte():
+    # Revisión final: con el PC apagado un mes, los pisos de Idealista seguían en la página.
+    e, s = {}, {}
+    _dia(e, s, {"idealista": [_p("9", "idealista")]}, 0)
+    _dia(e, s, {"fotocasa": [_p()]}, 7)
+    assert clave(_p("9", "idealista")) in e
+    _dia(e, s, {"fotocasa": [_p()]}, 8)
+    assert clave(_p("9", "idealista")) not in e
+
+
 def test_guardar_no_lleva_descripcion(tmp_path):
     e, s = {}, {}
     _dia(e, s, {"fotocasa": [_p(descripcion="texto privado")]}, 0)

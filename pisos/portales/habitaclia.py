@@ -104,7 +104,10 @@ def recoger(s: requests.Session) -> list[Piso]:
     pisos = paginar(obtener, pausa=PAUSA)
     for p in pisos:
         if _candidato(p):
-            ficha = parsear_ficha(pedir(s, NOMBRE, p.url).text)
+            try:
+                ficha = parsear_ficha(pedir(s, NOMBRE, p.url).text)
+            except PortalCaido:
+                continue   # una ficha caída no tira el portal: el piso se queda con lo del listado
             p.descripcion = ficha["descripcion"]
             p.ascensor = p.ascensor or ficha["ascensor"]
             p.garaje = p.garaje or ficha["garaje"]

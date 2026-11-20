@@ -23,6 +23,10 @@ jobs:
       name: github-pages
     steps:
       - uses: actions/checkout@v4
+      - name: Ponerse al día con main
+        # Una ejecución que esperó en cola (concurrency) arranca con el commit del momento en que se lanzó, sin el
+        # data/vistos.json que acaba de guardar la anterior: reenviaría los mismos pisos (revisión final).
+        run: git fetch -q origin main && git checkout -q -B main origin/main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -36,6 +40,7 @@ jobs:
           GMAIL_CLAVE_APP: ${{ secrets.GMAIL_CLAVE_APP }}
           CORREO_DESTINO: ${{ secrets.CORREO_DESTINO }}
           CORREO_AVISOS: ${{ secrets.CORREO_AVISOS }}
+          PISOS_FORZAR_AVISO: ${{ secrets.PISOS_FORZAR_AVISO }}   # README, «Comprobar»: prueba del correo de avisos
       - name: Guardar el estado (data/)
         run: |
           git config user.name "github-actions[bot]"
@@ -43,7 +48,7 @@ jobs:
           git add data
           if git diff --cached --quiet; then echo "sin cambios en data/"; exit 0; fi
           git commit -m "datos: $(date -u +%F)"
-          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
           exit 1
       - name: Mantener vivo el cron
         # GitHub desactiva los cron de un repositorio público tras 60 días sin actividad, y su documentación no
