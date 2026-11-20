@@ -3,8 +3,9 @@
 Uso: python -m pisos.pc [--seco] [--forzar]
   --seco    no hace git ni relanza el workflow (prueba)
   --forzar  consulta aunque hoy ya haya datos buenos
-Lo lanza la tarea programada (scripts/instalar_pc.py) al iniciar sesión y a las 09:00. Como mucho consulta una vez
-al día con éxito: cada visita de más arriesga otro captcha.
+Lo lanza la tarea programada (scripts/instalar_pc.py) a las 15:00 y, si el PC estaba apagado a esa hora, al iniciar
+sesión después de las 15:00 (--desde 15). Como mucho consulta una vez al día con éxito: cada visita de más arriesga
+otro captcha.
 """
 from __future__ import annotations
 
@@ -24,6 +25,15 @@ from .portales import PortalCaido
 
 RAIZ = Path(__file__).resolve().parents[1]
 log = logging.getLogger("pisos.pc")
+
+
+HORA = 15   # Miguel, 20/11/2026: Idealista y yaencontre «que llegue a las 3 y ya»
+
+
+def toca(ahora: datetime, desde: int = HORA) -> bool:
+    """El lanzador de inicio de sesión solo recupera la pasada si ya son las `desde` o más (el PC estaba
+    apagado a esa hora); por la mañana no se adelanta."""
+    return ahora.hour >= desde
 
 
 def _hoy_ya_bien(ruta: Path) -> bool:
@@ -101,8 +111,12 @@ def main() -> None:
     ap.add_argument("--seco", action="store_true")
     ap.add_argument("--forzar", action="store_true")
     ap.add_argument("--retraso", type=int, default=0, help="segundos de espera antes de empezar (al iniciar sesión)")
+    ap.add_argument("--desde", type=int, default=0, help="no hace nada antes de esta hora (al iniciar sesión: 15)")
     a = ap.parse_args()
     time.sleep(a.retraso)
+    if not toca(datetime.now(), a.desde):
+        print(f"antes de las {a.desde}:00: no toca")
+        return
     registro = Path.home() / "AppData" / "Local" / "pisos-almeria" / "pc.log"
     registro.parent.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s",

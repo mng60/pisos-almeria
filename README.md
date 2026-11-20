@@ -35,8 +35,9 @@ ventana abierta. La cookie queda guardada en ese perfil para las visitas siguien
   - suma lo que haya subido el PC hoy o ayer;
   - publica la página https://mng60.github.io/pisos-almeria/;
   - envía el correo de pisos nuevos a Belén y, si algún portal falla 2 días seguidos, otro a Miguel.
-- **Si el PC está encendido**, la tarea programada abre Edge, lee Idealista y yaencontre, sube
-  `data/pc/<fecha>.json` y relanza el workflow.
+- **A las 15:00, si el PC está encendido** (o al entrar más tarde ese día), la tarea programada abre Edge, lee
+  Idealista y yaencontre, sube `data/pc/<fecha>.json` y relanza el workflow: esos pisos llegan en el correo de esa
+  misma tarde.
 - **Cómo se clasifica cada piso**:
   - «Cumple todo»: precio, habitaciones, baño, zona, garaje y ascensor confirmados.
   - «Por confirmar»: el anuncio no dice si tiene garaje o ascensor.

@@ -6,9 +6,9 @@
 Qué hace y por qué:
 1. Comprueba Python 3.12+, Edge, git con remoto y `gh` autenticado (el PC sube los datos y relanza el workflow).
 2. Instala requirements-pc.txt (playwright usa el Edge instalado: no descarga navegadores).
-3. Crea la tarea programada «Pisos Almeria - diario» (09:00, solo con la sesión iniciada porque Edge tiene que
-   verse para poder resolver el captcha) y un lanzador oculto en la carpeta Inicio que corre 5 min después de
-   entrar. pisos.pc consulta como mucho una vez al día con éxito, así que los dos no duplican visitas.
+3. Crea la tarea programada «Pisos Almeria - diario» (15:00, solo con la sesión iniciada porque Edge tiene que
+   verse para poder resolver el captcha) y un lanzador oculto en la carpeta Inicio que, si entras después de las
+   15:00 y ese día aún no se consultó, hace la pasada. pisos.pc consulta como mucho una vez al día con éxito.
 4. Pasada de prueba con --seco: abre Edge, lee los dos portales (resuelve el captcha si sale) y no sube nada.
 """
 from __future__ import annotations
@@ -21,7 +21,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[1]
 LANZADOR = RAIZ / "scripts" / "ejecutar_pc.pyw"
 TAREAS = {
-    "Pisos Almeria - diario": ["/SC", "DAILY", "/ST", "09:00"],
+    "Pisos Almeria - diario": ["/SC", "DAILY", "/ST", "15:00"],   # Miguel: «a las 3 y ya»
 }
 # Una tarea /SC ONLOGON exige administrador (medido el 20/11/2026: «Acceso denegado»). Al iniciar sesión se usa
 # un .vbs en la carpeta Inicio del usuario, que no lo exige y lanza la pasada oculta tras 5 minutos.
@@ -63,8 +63,9 @@ def crear_tareas() -> None:
         print(f"  tarea «{nombre}»: {estado}")
         if r.returncode:
             sys.exit(1)
-    # 0 = ventana oculta; --retraso 300 espera 5 min a que el escritorio esté listo.
-    VBS.write_text(f'CreateObject("WScript.Shell").Run """{pythonw()}"" ""{LANZADOR}"" --retraso 300", 0\n',
+    # 0 = ventana oculta; --retraso 300 espera 5 min a que el escritorio esté listo; --desde 15 solo recupera la
+    # pasada de las 15:00 si el PC estaba apagado entonces (por la mañana no hace nada).
+    VBS.write_text(f'CreateObject("WScript.Shell").Run """{pythonw()}"" ""{LANZADOR}"" --retraso 300 --desde 15", 0\n',
                    encoding="utf-8")
     print(f"  al iniciar sesión: {VBS}")
 

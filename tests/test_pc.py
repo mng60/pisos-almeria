@@ -91,6 +91,14 @@ def test_fichero_de_hoy_sin_subir_se_sube_en_la_siguiente(tmp_path, monkeypatch)
     assert pc.subido(local, ruta)      # …pero sí sube lo pendiente
 
 
+def test_antes_de_la_hora_no_consulta():
+    # Al iniciar sesión por la mañana no se adelanta a la pasada de las 15:00 (Miguel, 20/11/2026).
+    assert pc.toca(datetime(2026, 11, 21, 9, 0), desde=15) is False
+    assert pc.toca(datetime(2026, 11, 21, 15, 0), desde=15) is True
+    assert pc.toca(datetime(2026, 11, 21, 22, 30), desde=15) is True
+    assert pc.toca(datetime(2026, 11, 21, 9, 0), desde=0) is True
+
+
 def test_servidor_lee_lo_que_escribe_el_pc(tmp_path):
     # Contrato entre las dos partes: el JSON del PC lo entiende servidor.datos_pc().
     from pisos.servidor import datos_pc
