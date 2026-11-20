@@ -48,6 +48,19 @@ def test_pagina_visto_desde():
     assert "desde el 19/11" in generar_pagina(agrupar([_p("1")]), estado, AHORA, {})
 
 
+def test_correo_solo_lleva_los_que_cumplen_todo():
+    # Belén (20/11/2026): le llegaron pisos sin garaje. Los «por confirmar» solo van a la página.
+    msg = correo_belen(_grupos(), "rem@x.com", "belen@x.com")
+    html = msg.get_body(("html",)).get_content()
+    assert "fotocasa.es/1" in html and "fotocasa.es/2" not in html
+    assert "Por confirmar" not in html
+    assert msg["Subject"] == "🏠 1 piso nuevo con garaje y ascensor en Almería"
+
+
+def test_sin_ninguno_que_cumpla_no_hay_correo():
+    assert correo_belen(_grupos()[1:], "rem@x.com", "belen@x.com") is None
+
+
 def test_correo_none_sin_nuevos():
     assert correo_belen([], "a@b.c", "d@e.f") is None
 
@@ -60,10 +73,9 @@ def test_correo_belen_no_menciona_fallos():
 
 
 def test_asunto():
-    assert asunto_belen(_grupos()) == "🏠 2 pisos nuevos en Almería (1 cumple todo)"
-    assert asunto_belen(_grupos()[:1]) == "🏠 1 piso nuevo en Almería (1 cumple todo)"
-    # Sin ninguno que cumpla todo, «(0 cumple todo)» sonaba raro.
-    assert asunto_belen(_grupos()[1:]) == "🏠 1 piso nuevo en Almería (por confirmar)"
+    assert asunto_belen(_grupos()[:1]) == "🏠 1 piso nuevo con garaje y ascensor en Almería"
+    assert asunto_belen(_grupos()[:1] * 2) == "🏠 2 pisos nuevos con garaje y ascensor en Almería"
+    assert asunto_belen(_grupos()[:1], resumen=True) == "🏠 1 piso con garaje y ascensor en Almería (resumen)"
 
 
 def test_barrio_que_contiene_la_zona_no_la_repite():

@@ -41,6 +41,19 @@ def test_garaje_en_descripcion():
     assert p.zona is None
 
 
+def test_extras_ascensor_y_garaje():
+    # Milanuncios pone el equipamiento en «extras» (anuncio real 618754729: Ascensor Sí), que no se leía.
+    def ad(extras):
+        return {"ads": [{"id": "1", "transaction": "supply", "url": "/x.htm", "title": "Altamira",
+                         "price": {"cash": {"value": 600}}, "attributes": [], "extras": [
+                             {"field": {"raw": r}, "value": {"raw": v}} for r, v in extras]}]}
+    # Claves reales, medidas el 20/11/2026 en 50 anuncios: elevator (43) y garage (2).
+    p = milanuncios.parsear(ad([("elevator", "Yes"), ("garage", "Yes")]))[0]
+    assert (p.ascensor, p.garaje) == ("si", "si")
+    p = milanuncios.parsear(ad([("elevator", "No")]))[0]
+    assert (p.ascensor, p.garaje) == ("no", None)
+
+
 def test_formato_irreconocible():
     with pytest.raises(PortalCaido):
         milanuncios.parsear({"error": "x"})

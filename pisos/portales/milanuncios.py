@@ -37,6 +37,12 @@ def parsear(respuesta: dict) -> list[Piso]:
         if a.get("transaction") != "supply":
             continue
         at = {x["field"]["raw"]: x["value"] for x in a.get("attributes") or []}
+        # El equipamiento va en «extras» (claves reales: elevator, garage). Antes no se leía y un piso con
+        # «Ascensor: Sí» salía sin dato (anuncio 618754729, 20/11/2026).
+        ex = {x["field"]["raw"]: x["value"]["raw"] for x in a.get("extras") or []}
+        def si_no(*claves):
+            v = next((ex[c] for c in claves if c in ex), None)
+            return {"yes": "si", "no": "no"}.get(str(v).lower()) if v is not None else None
         precio = entero(((a.get("price") or {}).get("cash") or {}).get("value"))
         if precio is None:
             continue
@@ -50,6 +56,8 @@ def parsear(respuesta: dict) -> list[Piso]:
             m2=entero((at.get("squareMeters") or {}).get("raw")),
             planta=(at.get("floor") or {}).get("formatted"),
             barrio=a.get("title"),
+            ascensor=si_no("elevator"),
+            garaje=si_no("garage", "parking"),
             descripcion=a.get("description"),
         ))
     return pisos

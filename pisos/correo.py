@@ -12,36 +12,30 @@ from .pagina import NOMBRES_PORTAL, separar, tarjeta
 PAGINA_URL = os.environ.get("PAGINA_URL", "https://mng60.github.io/pisos-almeria/")
 
 
-def asunto_belen(nuevos: list[Grupo], resumen: bool = False) -> str:
-    cumple, _ = separar(nuevos)
-    n = len(nuevos)
-    detalle = f"{len(cumple)} cumple todo" if cumple else "por confirmar"
+def asunto_belen(cumplen: list[Grupo], resumen: bool = False) -> str:
+    n = len(cumplen)
     if resumen:
-        return f"🏠 {n} piso{'s' if n != 1 else ''} disponible{'s' if n != 1 else ''} en Almería ({detalle})"
-    return f"🏠 {n} piso{'s' if n != 1 else ''} nuevo{'s' if n != 1 else ''} en Almería ({detalle})"
+        return f"🏠 {n} piso{'s' if n != 1 else ''} con garaje y ascensor en Almería (resumen)"
+    return f"🏠 {n} piso{'s' if n != 1 else ''} nuevo{'s' if n != 1 else ''} con garaje y ascensor en Almería"
 
 
 def correo_belen(nuevos: list[Grupo], remitente: str, destino: str, estado: dict | None = None,
                  resumen: bool = False) -> EmailMessage | None:
-    if not nuevos:
+    # Solo los que cumplen TODO (garaje y ascensor confirmados). Los «por confirmar» no tenían garaje en los 5
+    # casos revisados el 20/11/2026 (Belén: «me llegan pisos sin garaje»): se quedan solo en la página.
+    cumple, _ = separar(nuevos)
+    if not cumple:
         return None
-    cumple, confirmar = separar(nuevos)
     estado = estado or {}
-    partes = []
-    if cumple:
-        partes.append("<h2 style=\"font-size:18px\">Cumple todo</h2>" + "".join(tarjeta(g, estado) for g in cumple))
-    if confirmar:
-        partes.append("<h2 style=\"font-size:18px\">Por confirmar (preguntar garaje o ascensor)</h2>"
-                      + "".join(tarjeta(g, estado) for g in confirmar))
     html = (f'<div style="font-family:system-ui,sans-serif;color:#1c1917">'
-            f'<p>{"Todos los pisos disponibles ahora mismo" if resumen else "Pisos nuevos desde el último correo"}'
-            f':</p>{"".join(partes)}'
-            f'<p><a href="{PAGINA_URL}">Ver todos los pisos disponibles</a></p></div>')
+            f'<p>{"Pisos con garaje y ascensor disponibles ahora" if resumen else "Pisos nuevos con garaje y ascensor"}'
+            f':</p>{"".join(tarjeta(g, estado) for g in cumple)}'
+            f'<p><a href="{PAGINA_URL}">Ver la página (incluye los que no indican garaje)</a></p></div>')
     texto = "\n\n".join(
-        f"{g.principal.precio} € · {g.principal.zona} · " + " ".join(url for _, url in g.enlaces) for g in nuevos
+        f"{g.principal.precio} € · {g.principal.zona} · " + " ".join(url for _, url in g.enlaces) for g in cumple
     ) + f"\n\nTodos los pisos: {PAGINA_URL}"
     msg = EmailMessage()
-    msg["Subject"] = asunto_belen(nuevos, resumen)
+    msg["Subject"] = asunto_belen(cumple, resumen)
     msg["From"] = remitente
     msg["To"] = destino
     msg.set_content(texto)

@@ -120,7 +120,7 @@ def test_resumen_manda_todos_los_vigentes(tmp_path):
     _correr(tmp_path, ok, 0, entorno={})                         # se ven sin credenciales: nadie recibe nada
     assert _correr(tmp_path, ok, 1) == []                        # sin resumen: nada nuevo, nada que enviar
     env = _correr(tmp_path, ok, 1, entorno=CRED | {"PISOS_ENVIAR_TODOS": "true"})
-    assert len(env) == 1 and env[0]["Subject"].startswith("🏠 2 pisos disponibles en Almería")
+    assert len(env) == 1 and env[0]["Subject"] == "🏠 2 pisos con garaje y ascensor en Almería (resumen)"
 
 
 def test_forzar_aviso(tmp_path):
