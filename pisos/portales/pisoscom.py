@@ -21,7 +21,15 @@ from . import PAUSA, PortalCaido, entero, paginar, pedir
 
 NOMBRE = "pisoscom"
 BASE = "https://www.pisos.com"
-LISTADO = f"{BASE}/alquiler/pisos-almeria_capital/desde-{config.PRECIO_MIN}/hasta-{config.PRECIO_MAX}/"
+# Medido el 20/11/2026 aplicando el filtro a mano en la web: 37 → 23 resultados (habitaciones solo como mínimo).
+LISTADO = (f"{BASE}/alquiler/pisos-almeria_capital/con-{config.HABITACIONES}-habitaciones/"
+           f"desde-{config.PRECIO_MIN}/hasta-{config.PRECIO_MAX}/")
+
+
+def total_declarado(html: str) -> int | None:
+    """«37 resultados» de la cabecera. Tras ellos pisos.com añade sugerencias que no cumplen el filtro."""
+    m = re.search(r"\b(\d+) resultados", html)
+    return int(m.group(1)) if m else None
 
 
 def _num(patron: str, texto: str) -> int | None:
@@ -71,8 +79,17 @@ def parsear_ficha(html: str) -> dict:
 
 
 def recoger(s: requests.Session) -> list[Piso]:
-    pisos = paginar(lambda n: parsear(pedir(s, NOMBRE, LISTADO if n == 1 else f"{LISTADO}{n}/").text),
-                    pausa=PAUSA)
+    total: list[int | None] = []
+
+    def obtener(n: int) -> list[Piso]:
+        html = pedir(s, NOMBRE, LISTADO if n == 1 else f"{LISTADO}{n}/").text
+        if n == 1:
+            total.append(total_declarado(html))
+        return parsear(html)
+
+    pisos = paginar(obtener, pausa=PAUSA)
+    if total and total[0] is not None:
+        pisos = pisos[: total[0]]
     for p in pisos:
         if (config.PRECIO_MIN <= p.precio <= config.PRECIO_MAX and p.habitaciones == config.HABITACIONES
                 and zona_de(NOMBRE, p.barrio) is not None):

@@ -19,6 +19,12 @@ from pisos.texto import detectar_ascensor, detectar_garaje, leer_precio
     ("• Fácil aparcamiento en la calle.", (None, None)),
     ("• Easy street parking available.", (None, None)),
     ("Zona con parking público cerca", (None, None)),
+    # Hallazgos de la revisión final (20/11/2026):
+    ("Garaje: no", ("no", None)),
+    ("Garaje: No. Trastero: sí", ("no", None)),
+    ("Piso en calle Real con plaza de garaje", ("si", None)),
+    ("Cerca del Paseo, con garaje", ("si", None)),
+    ("No tiene garaje pero sí ascensor", ("no", None)),
     (None, (None, None)),
 ])
 def test_detectar_garaje(t, esperado):
@@ -31,6 +37,10 @@ def test_detectar_garaje(t, esperado):
     ("cuarta planta sin ascensor", "no"),
     ("Exterior y luminoso", None),
     ("Finca con dos ascensores", "si"),
+    ("Ascensor: No", "no"),
+    ("Ascensor: sí", "si"),
+    ("No tiene garaje pero sí ascensor", "si"),
+    ("Sin garaje y con ascensor", "si"),
 ])
 def test_detectar_ascensor(t, esperado):
     assert detectar_ascensor(t) == esperado

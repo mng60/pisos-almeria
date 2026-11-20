@@ -1,8 +1,8 @@
 """yaencontre, desde el PC con Edge visible (desde un servidor bloquea con captcha: README).
 
 Medido el 20/11/2026 (tests/fixtures/yaencontre_*.html):
-- la URL con filtros que se dedujo (/f-2-habitaciones/p-500-700) da 404: se usa el distrito «Almería ciudad»
-  sin filtro de precio y se filtra aquí; se pagina con /pag-N;
+- la URL con filtros que se DEDUJO (/f-2-habitaciones/p-500-700) daba 404; la real, sacada usando los filtros
+  en la web, es /distrito-almeria-ciudad/f-2-habitaciones,500-700euros (ver LISTADO); se pagina con /pag-N;
 - cada anuncio es un article.real-estate-card: «Ático en Retamar, Almería | 850 | € | /mes | 3 habs. | 2 baños |
   155 m² | … | Planta 2ª»;
 - la ficha trae el equipamiento como etiquetas li.yae-tag («Ascensor», «Garaje») y la descripción tras un h3
@@ -15,6 +15,7 @@ from typing import Callable
 
 from bs4 import BeautifulSoup
 
+from .. import config
 from ..filtro import clasificar, completar
 from ..modelo import Piso
 from ..texto import normalizar
@@ -22,7 +23,10 @@ from . import PortalCaido, entero, paginar
 
 NOMBRE = "yaencontre"
 BASE = "https://www.yaencontre.com"
-LISTADO = f"{BASE}/alquiler/pisos/almeria/distrito-almeria-ciudad"
+# Medido el 20/11/2026 aplicando los filtros a mano en la web: 200 → 5 resultados. Las habitaciones solo
+# admiten mínimo («2+»): los de 3 o más se descartan después.
+LISTADO = (f"{BASE}/alquiler/pisos/almeria/distrito-almeria-ciudad/"
+           f"f-{config.HABITACIONES}-habitaciones,{config.PRECIO_MIN}-{config.PRECIO_MAX}euros")
 MAX_PAGINAS_PC = 6
 
 

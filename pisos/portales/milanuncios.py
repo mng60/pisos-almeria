@@ -22,8 +22,10 @@ from . import PortalCaido, entero, pedir
 NOMBRE = "milanuncios"
 API = "https://searchapi.gw.milanuncios.com/v3/classifieds"
 LIMITE = 50
+# bedroomsFrom/To medido el 20/11/2026: 22 → 6 anuncios, todos de 2 dormitorios. Los baños (bathroomsFrom/To)
+# también filtran, pero no se usan: dejarían fuera los anuncios que no los indican («por confirmar»).
 PARAMS = {"category": 132, "city": 8, "priceFrom": config.PRECIO_MIN, "priceTo": config.PRECIO_MAX,
-          "limit": LIMITE}
+          "bedroomsFrom": config.HABITACIONES, "bedroomsTo": config.HABITACIONES, "limit": LIMITE}
 log = logging.getLogger(__name__)
 
 

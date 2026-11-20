@@ -34,10 +34,18 @@ def _menciones(texto: str, patron: re.Pattern) -> list[tuple[bool, str]]:
     for m in patron.finditer(texto):
         frase_antes = re.split(r"[.;:!?\n•]", texto[: m.start()])[-1][-25:]
         frase_despues = re.split(r"[.,;:!?\n•]", texto[m.end():])[0][:25]
-        if patron is GARAJE and APARCAR_FUERA.search(frase_antes + " " + frase_despues):
+        # Solo «parking»/«aparcamiento» pueden ser de calle; «garaje» nunca («calle Real con plaza de garaje»).
+        if (patron is GARAJE and re.search(r"parking|aparcamiento", m.group()) and "plaza" not in m.group()
+                and APARCAR_FUERA.search(frase_antes + " " + frase_despues)):
             continue
-        # Solo cuenta la misma frase o inciso: un «no» de la frase anterior no niega.
-        tramo = re.split(r"[.,;:!?\n()]", texto[: m.start()])[-1]
+        # «Garaje: no», «Ascensor: No»: la respuesta va DESPUÉS del término.
+        despues = re.match(r"\s*:?\s*(no|si)\b", texto[m.end():])
+        if despues:
+            res.append((despues.group(1) == "no", ""))
+            continue
+        # Solo cuenta la misma frase o inciso: un «no» de la frase anterior no niega. «pero» y «sí» abren
+        # inciso nuevo: «No tiene garaje pero sí ascensor».
+        tramo = re.split(r"[.,;:!?\n()]|\bpero\b|\bsi\b", texto[: m.start()])[-1]
         antes = re.findall(r"\w+", tramo)[-VENTANA:]
         # «sin muebles y con garaje»: un «con» posterior a la negación la anula.
         ultima_neg = max((i for i, p in enumerate(antes) if p in NEGACIONES), default=-1)
