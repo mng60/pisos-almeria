@@ -62,6 +62,21 @@ def test_correo_belen_no_menciona_fallos():
 def test_asunto():
     assert asunto_belen(_grupos()) == "🏠 2 pisos nuevos en Almería (1 cumple todo)"
     assert asunto_belen(_grupos()[:1]) == "🏠 1 piso nuevo en Almería (1 cumple todo)"
+    # Sin ninguno que cumpla todo, «(0 cumple todo)» sonaba raro.
+    assert asunto_belen(_grupos()[1:]) == "🏠 1 piso nuevo en Almería (por confirmar)"
+
+
+def test_barrio_que_contiene_la_zona_no_la_repite():
+    h = generar_pagina(agrupar([_p(zona="Zapillo", barrio="Zapillo - C. Poeta Durban")]), {}, AHORA, {})
+    assert "Zapillo · Zapillo" not in h and "Zapillo - C. Poeta Durban" in h
+
+
+def test_sin_datos_no_pinta_interrogantes():
+    # «Garaje ? Ascensor ?» repetía lo que ya dice «Por confirmar».
+    h = generar_pagina(agrupar([_p(garaje=None, ascensor=None)]), {}, AHORA, {})
+    assert "Garaje ?" not in h and "Ascensor ?" not in h
+    assert "garaje sin confirmar" in h
+    assert "Garaje ✔" in generar_pagina(agrupar([_p()]), {}, AHORA, {})
 
 
 def test_correo_avisos_nombra_portal_y_dias():

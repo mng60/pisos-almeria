@@ -50,8 +50,9 @@ def tarjeta(g: Grupo, estado: dict) -> str:
         f"{p.m2} m²" if p.m2 else None,
         p.planta,
     ] if x)
-    garaje = {"si": "Garaje ✔" + (f" ({p.nota_garaje})" if p.nota_garaje else ""), None: "Garaje ?"}.get(p.garaje, "")
-    ascensor = {"si": "Ascensor ✔", None: "Ascensor ?"}.get(p.ascensor, "")
+    # Solo lo confirmado; lo que falta ya lo dice «Por confirmar».
+    garaje = ("Garaje ✔" + (f" ({p.nota_garaje})" if p.nota_garaje else "")) if p.garaje == "si" else ""
+    ascensor = "Ascensor ✔" if p.ascensor == "si" else ""
     enlaces = " ".join(
         f'<a href="{e(url)}" style="display:inline-block;margin:4px 6px 0 0;padding:6px 12px;border-radius:6px;'
         f'background:#0f766e;color:#fff;text-decoration:none;font-size:14px">Ver en {e(NOMBRES_PORTAL.get(portal, portal))}</a>'
@@ -60,8 +61,13 @@ def tarjeta(g: Grupo, estado: dict) -> str:
             f'border-radius:8px 8px 0 0;display:block">' if p.foto else "")
     desde = primera_vez(g, estado)
     falta = pendientes(g)
-    misma = normalizar(p.barrio or "").strip() in ("", normalizar(p.zona or "").strip())
-    lugar = (p.zona or "") if misma else f"{p.zona} · {p.barrio}"
+    b, z = normalizar(p.barrio or "").strip(), normalizar(p.zona or "").strip()
+    if b in ("", z):
+        lugar = p.zona or ""
+    elif z and z in b:          # «Zapillo - C. Poeta Durban» ya nombra la zona
+        lugar = p.barrio
+    else:
+        lugar = f"{p.zona} · {p.barrio}"
     return (
         '<div class="tarjeta" style="border:1px solid #d6d3d1;border-radius:8px;margin:0 0 16px;overflow:hidden;'
         'max-width:560px">'
@@ -69,7 +75,8 @@ def tarjeta(g: Grupo, estado: dict) -> str:
         f'<div style="font-size:22px;font-weight:700">{p.precio} €<span style="font-size:14px;font-weight:400">/mes</span></div>'
         f'<div style="font-size:15px;margin:2px 0">{e(lugar)}</div>'
         f'<div style="font-size:14px;opacity:.8">{e(datos)}</div>'
-        f'<div style="font-size:14px;margin-top:4px">{e(garaje)} &nbsp; {e(ascensor)}</div>'
+        + (f'<div style="font-size:14px;margin-top:4px">{e(garaje)} &nbsp; {e(ascensor)}</div>'
+           if garaje or ascensor else "")
         + (f'<div style="font-size:13px;color:#b45309;margin-top:4px">Por confirmar: {e(", ".join(falta))}</div>'
            if falta else "")
         + (f'<div style="font-size:12px;opacity:.7;margin-top:4px">Publicado desde el {_fecha_corta(desde)}</div>'

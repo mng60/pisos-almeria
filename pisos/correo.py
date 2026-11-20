@@ -15,7 +15,8 @@ PAGINA_URL = os.environ.get("PAGINA_URL", "https://mng60.github.io/pisos-almeria
 def asunto_belen(nuevos: list[Grupo]) -> str:
     cumple, _ = separar(nuevos)
     n = len(nuevos)
-    return f"🏠 {n} piso{'s' if n != 1 else ''} nuevo{'s' if n != 1 else ''} en Almería ({len(cumple)} cumple todo)"
+    detalle = f"{len(cumple)} cumple todo" if cumple else "por confirmar"
+    return f"🏠 {n} piso{'s' if n != 1 else ''} nuevo{'s' if n != 1 else ''} en Almería ({detalle})"
 
 
 def correo_belen(nuevos: list[Grupo], remitente: str, destino: str, estado: dict | None = None) -> EmailMessage | None:
