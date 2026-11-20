@@ -4,7 +4,7 @@ Fecha: 20/11/2026 · Estado: borrador para aprobar
 
 ## Para qué es
 
-Belén ([correo]) busca piso de alquiler en Almería capital. Queremos que reciba cada día, sin que
+Belén (su correo va solo en el secret CORREO_DESTINO, nunca en el repositorio) busca piso de alquiler en Almería capital. Queremos que reciba cada día, sin que
 nadie tenga que hacer nada, los pisos nuevos que cumplen sus condiciones, y que tenga una página con todos los que
 siguen publicados, que también pueda compartir. Tiene que ser **gratis** y **sin gastar tokens**: solo scripts.
 
