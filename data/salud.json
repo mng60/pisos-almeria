@@ -13,6 +13,13 @@
   "ultimo_n": 13,
   "ultimo_ok": "2026-11-20"
  },
+ "idealista": {
+  "fallos_seguidos": 0,
+  "motivo": null,
+  "ultimo_fallo": null,
+  "ultimo_n": 12,
+  "ultimo_ok": "2026-11-20"
+ },
  "milanuncios": {
   "fallos_seguidos": 0,
   "motivo": null,
@@ -25,6 +32,13 @@
   "motivo": null,
   "ultimo_fallo": null,
   "ultimo_n": 64,
+  "ultimo_ok": "2026-11-20"
+ },
+ "yaencontre": {
+  "fallos_seguidos": 0,
+  "motivo": null,
+  "ultimo_fallo": null,
+  "ultimo_n": 200,
   "ultimo_ok": "2026-11-20"
  }
 }

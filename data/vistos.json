@@ -1,4 +1,48 @@
 {
+ "idealista:102535568": {
+  "ausencias": 0,
+  "piso": {
+   "ascensor": "si",
+   "banos": 1,
+   "barrio": "Zapillo",
+   "foto": "https://img4.idealista.com/blur/340_280_mq/0/id.pro.es.image.master/b7/4b/cb/1158764519.jpg",
+   "garaje": null,
+   "habitaciones": 2,
+   "id": "102535568",
+   "m2": 60,
+   "nota_garaje": null,
+   "planta": "2ª planta exterior con ascensor",
+   "portal": "idealista",
+   "precio": 700,
+   "url": "https://www.idealista.com/inmueble/102535568/",
+   "zona": "Zapillo"
+  },
+  "primera_vez": "2026-11-20",
+  "ultima_ausencia": null,
+  "ultima_vez": "2026-11-20"
+ },
+ "idealista:109485526": {
+  "ausencias": 0,
+  "piso": {
+   "ascensor": "si",
+   "banos": 1,
+   "barrio": "Centro",
+   "foto": "https://img4.idealista.com/blur/480_360_mq/0/id.pro.es.image.master/74/f2/ca/1489407970.jpg",
+   "garaje": null,
+   "habitaciones": 2,
+   "id": "109485526",
+   "m2": 74,
+   "nota_garaje": null,
+   "planta": "3ª planta exterior con ascensor",
+   "portal": "idealista",
+   "precio": 685,
+   "url": "https://www.idealista.com/inmueble/109485526/",
+   "zona": "Centro"
+  },
+  "primera_vez": "2026-11-20",
+  "ultima_ausencia": null,
+  "ultima_vez": "2026-11-20"
+ },
  "milanuncios:618754729": {
   "ausencias": 0,
   "piso": {
