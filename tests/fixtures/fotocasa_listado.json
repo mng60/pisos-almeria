@@ -1,0 +1,2072 @@
+{
+ "breadcrumb": {
+  "countries": [],
+  "provinces": [],
+  "regions": [],
+  "municipalities": [
+   {
+    "literal": " Almería Capital",
+    "combinedLocation": "724,1,4,276,486,4013,0,0,0",
+    "counter": 8,
+    "segments": "almeria-capital/todas-las-zonas",
+    "selected": true,
+    "subLocations": null
+   },
+   {
+    "literal": "Viator",
+    "combinedLocation": "724,1,4,276,485,4101,0,0,0",
+    "counter": 2,
+    "segments": "viator/todas-las-zonas",
+    "selected": false,
+    "subLocations": null
+   }
+  ],
+  "localities": [],
+  "districts": [
+   {
+    "literal": "Ciudad Jardín - Tagarete - El Zapillo",
+    "combinedLocation": "724,1,4,276,486,4013,0,4325,0",
+    "counter": 1,
+    "segments": "almeria-capital/ciudad-jardin-tagarete-el-zapillo",
+    "selected": false,
+    "subLocations": null
+   },
+   {
+    "literal": "Piedras Redondas - Torrecárdenas",
+    "combinedLocation": "724,1,4,276,486,4013,0,4317,0",
+    "counter": 1,
+    "segments": "almeria-capital/piedras-redondas-torrecardenas",
+    "selected": false,
+    "subLocations": null
+   },
+   {
+    "literal": "Plaza de Toros - Santa Rita",
+    "combinedLocation": "724,1,4,276,486,4013,0,4316,0",
+    "counter": 1,
+    "segments": "almeria-capital/plaza-de-toros-santa-rita",
+    "selected": false,
+    "subLocations": null
+   },
+   {
+    "literal": "Retamar",
+    "combinedLocation": "724,1,4,276,486,4013,0,4328,0",
+    "counter": 5,
+    "segments": "almeria-capital/retamar",
+    "selected": false,
+    "subLocations": null
+   }
+  ],
+  "neighborhoods": [],
+  "edistricts": [
+   {
+    "literal": "Ciudad Jardín - Tagarete - El Zapillo",
+    "combinedLocation": "724,1,4,276,486,4013,0,4325,0",
+    "counter": 1,
+    "segments": "almeria-capital/ciudad-jardin-tagarete-el-zapillo",
+    "selected": false,
+    "subLocations": []
+   },
+   {
+    "literal": "Piedras Redondas - Torrecárdenas",
+    "combinedLocation": "724,1,4,276,486,4013,0,4317,0",
+    "counter": 1,
+    "segments": "almeria-capital/piedras-redondas-torrecardenas",
+    "selected": false,
+    "subLocations": []
+   },
+   {
+    "literal": "Plaza de Toros - Santa Rita",
+    "combinedLocation": "724,1,4,276,486,4013,0,4316,0",
+    "counter": 1,
+    "segments": "almeria-capital/plaza-de-toros-santa-rita",
+    "selected": false,
+    "subLocations": []
+   },
+   {
+    "literal": "Retamar",
+    "combinedLocation": "724,1,4,276,486,4013,0,4328,0",
+    "counter": 5,
+    "segments": "almeria-capital/retamar",
+    "selected": false,
+    "subLocations": []
+   }
+  ]
+ },
+ "count": 8,
+ "hrefLang": {
+  "ca": {
+   "location": "almeria-capital",
+   "zone": "totes-les-zones",
+   "text": ""
+  },
+  "es": {
+   "location": "almeria-capital",
+   "zone": "todas-las-zonas",
+   "text": ""
+  },
+  "en": {
+   "location": "almeria-capital",
+   "zone": "all-zones",
+   "text": ""
+  },
+  "de": {
+   "location": "almeria-capital",
+   "zone": "alle-zonen",
+   "text": ""
+  }
+ },
+ "client": null,
+ "realEstates": [
+  {
+   "id": 191151501,
+   "typeId": 2,
+   "subtypeId": 1,
+   "promotionId": 0,
+   "promotionTypeId": 0,
+   "promotion": null,
+   "isNew": false,
+   "advertiser": {
+    "logo": null,
+    "phone": "",
+    "typeId": 3,
+    "clientId": 9202750520562,
+    "urlAlias": "profesionales-inmobiliarios",
+    "clientAlias": "Profesionales Inmobiliarios"
+   },
+   "detail": {
+    "es": "/es/alquiler/vivienda/almeria-capital/calefaccion-amueblado/191151501/d"
+   },
+   "multimedias": [
+    {
+     "url": "https://static.fotocasa.es/images/anuncio/2026/10/19/191151501/5035805313.jpg?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/anuncio/2026/10/19/191151501/5035805318.jpg?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    }
+   ],
+   "features": [
+    {
+     "key": "bathrooms",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "floor",
+     "value": [
+      8
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "heater",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "rooms",
+     "value": [
+      2
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "surface",
+     "value": [
+      60
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    }
+   ],
+   "otherFeatures": null,
+   "transactions": [
+    {
+     "transactionTypeId": 3,
+     "value": [
+      600
+     ],
+     "reduced": 0,
+     "periodicityId": 3,
+     "maxPrice": 0,
+     "minPrice": 0
+    }
+   ],
+   "products": [],
+   "contracts": [],
+   "address": {
+    "ubication": "Ciudad Jardín - Tagarete - El Zapillo",
+    "location": {
+     "country": "España",
+     "level1": "Andalucía",
+     "level2": "Almería",
+     "level3": "Almería capital y entorno",
+     "level4": "Almería, Zona de",
+     "level5": " Almería Capital",
+     "level6": "",
+     "level7": "Ciudad Jardín - Tagarete - El Zapillo",
+     "level8": "",
+     "upperLevel": "Ciudad Jardín - Tagarete - El Zapillo",
+     "countryId": 724,
+     "level1Id": 1,
+     "level2Id": 4,
+     "level3Id": 276,
+     "level4Id": 486,
+     "level5Id": 4013,
+     "level6Id": 0,
+     "level7Id": 4325,
+     "level8Id": 0
+    },
+    "coordinates": {
+     "accuracy": 0,
+     "latitude": 36.829956,
+     "longitude": -2.4535291
+    },
+    "zipCode": "04001",
+    "customZone": null
+   },
+   "date": "2026-11-03T15:42:17.19Z",
+   "description": "Disponible en DICIEMBRE \n\nSe alquila piso de 2 habitaciones en el Zapillo a UNA PERSONA O PAREJA DE TRABAJADORES, gente de paso, tele-trabajadoresEs una 3° planta sin ascensor. \n LOS GASTOS SE PAGAN APARTE",
+   "isTop": false,
+   "isPhotoReport": false,
+   "isMsAdvance": false,
+   "isExternalContact": false,
+   "isVirtualTour": false,
+   "hasVgo": false,
+   "hasDescriptionPlan": false,
+   "realEstateAdId": null,
+   "otherFeaturesCount": 1,
+   "externalContactUrl": null,
+   "isCompleted": null,
+   "isMainTypology": false,
+   "hasSubsidies": true
+  },
+  {
+   "id": 190946960,
+   "typeId": 2,
+   "subtypeId": 1,
+   "promotionId": 0,
+   "promotionTypeId": 0,
+   "promotion": null,
+   "isNew": false,
+   "advertiser": {
+    "logo": null,
+    "phone": "",
+    "typeId": 1,
+    "clientId": 9202750520561,
+    "urlAlias": "particular",
+    "clientAlias": "Particular"
+   },
+   "detail": {
+    "es": "/es/alquiler/vivienda/almeria-capital/calefaccion-jardin-terraza-piscina-amueblado/190946960/d"
+   },
+   "multimedias": [
+    {
+     "url": "https://static.fotocasa.es/images/anuncio/2026/09/26/190946960/5017654771.jpg?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "living room"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/anuncio/2026/09/26/190946960/5017654785.jpg?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "bathroom"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/anuncio/2026/09/26/190946960/5017654794.jpg?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "bedroom"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/anuncio/2026/09/26/190946960/5017654813.jpg?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "living room"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/anuncio/2026/09/26/190946960/5017654816.jpg?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "kitchen"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/anuncio/2026/09/26/190946960/5017654819.jpg?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "kitchen"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/anuncio/2026/09/26/190946960/5017654821.jpg?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "bathroom"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/anuncio/2026/09/26/190946960/5017654823.jpg?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "living room"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/anuncio/2026/09/26/190946960/5017654824.jpg?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "living room"
+    }
+   ],
+   "features": [
+    {
+     "key": "bathrooms",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "floor",
+     "value": [
+      6
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "heater",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "garden",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "terrace",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "swimming_pool",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "rooms",
+     "value": [
+      2
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "surface",
+     "value": [
+      70
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    }
+   ],
+   "otherFeatures": null,
+   "transactions": [
+    {
+     "transactionTypeId": 3,
+     "value": [
+      650
+     ],
+     "reduced": 0,
+     "periodicityId": 3,
+     "maxPrice": 0,
+     "minPrice": 0
+    }
+   ],
+   "products": [],
+   "contracts": [],
+   "address": {
+    "ubication": "Retamar",
+    "location": {
+     "country": "España",
+     "level1": "Andalucía",
+     "level2": "Almería",
+     "level3": "Almería capital y entorno",
+     "level4": "Almería, Zona de",
+     "level5": " Almería Capital",
+     "level6": "",
+     "level7": "Retamar",
+     "level8": "",
+     "upperLevel": "Retamar",
+     "countryId": 724,
+     "level1Id": 1,
+     "level2Id": 4,
+     "level3Id": 276,
+     "level4Id": 486,
+     "level5Id": 4013,
+     "level6Id": 0,
+     "level7Id": 4328,
+     "level8Id": 0
+    },
+    "coordinates": {
+     "accuracy": 0,
+     "latitude": 36.835445,
+     "longitude": -2.30989
+    },
+    "zipCode": "04001",
+    "customZone": null
+   },
+   "date": "2026-09-26T13:07:12.623Z",
+   "description": "¡Vivienda recién reformada en Retamar, Almería!\n\nSe alquila preciosa vivienda completamente reformada, amueblada y equipada, ubicada en Retamar (Almería).\n\n Disponible del 1 de septiembre al 30 de junio.\n\nLa vivienda cuenta con:\n\n 2 dormitorios completamente amueblados.\n Salón acogedor y luminoso, ideal para disfrutar de momentos de descanso.\n Cocina equipada, moderna y funcional.\n 1 baño completo.\n Terraza privada, perfecta para disfrutar del aire libre y del buen clima de Almería.\n Vivienda a estrenar, con mobiliario y equipamiento nuevos.\n Fácil aparcamiento en la calle.\n\nUna vivienda cómoda, moderna y tranquila, perfecta para quienes buscan disfrutar de Retamar y su entorno, en una zona agradable y con todos los servicios necesarios cerca.\n\n Brand-New Renovated Home for Rent in Retamar, Almería!\n\nBeautiful fully renovated, furnished and equipped home available for rent in Retamar, Almería.\n\n Available from September 1st to June 30th.\n\nThe property features:\n\n 2 fully furnished bedrooms.\n Bright and comfortable living room, perfect for relaxing and enjoying your time at home.\n Modern, fully equipped kitchen, practical and functional.\n 1 complete bathroom.\n Private terrace, perfect for enjoying the outdoors and Almerías wonderful climate.\n Brand-new home, with new furniture and equipment.\n Easy street parking available.\n\nA modern, comfortable and peaceful home, perfect for those looking to enjoy Retamar and its surroundings, in a pleasant area with all essential amenities nearby.",
+   "isTop": false,
+   "isPhotoReport": false,
+   "isMsAdvance": false,
+   "isExternalContact": false,
+   "isVirtualTour": false,
+   "hasVgo": false,
+   "hasDescriptionPlan": false,
+   "realEstateAdId": null,
+   "otherFeaturesCount": 1,
+   "externalContactUrl": null,
+   "isCompleted": null,
+   "isMainTypology": false,
+   "hasSubsidies": true
+  },
+  {
+   "id": 190717824,
+   "typeId": 2,
+   "subtypeId": 1,
+   "promotionId": 0,
+   "promotionTypeId": 0,
+   "promotion": null,
+   "isNew": false,
+   "advertiser": {
+    "logo": {
+     "multimedia": {
+      "url": "https://static.fotocasa.es/images/client/9202754033825/501023.jpg?rule=original",
+      "typeId": 8,
+      "position": null,
+      "roomType": null
+     },
+     "url": {
+      "es": "/inmobiliarias/brisa-hogar-sl-9202754033825"
+     }
+    },
+    "phone": "+34600000000",
+    "typeId": 3,
+    "clientId": 9202754033825,
+    "urlAlias": "brisa-hogar-sl",
+    "clientAlias": "BRISA HOGAR SL"
+   },
+   "detail": {
+    "es": "/es/alquiler/vivienda/almeria-capital/calefaccion-amueblado/190717824/d"
+   },
+   "multimedias": [
+    {
+     "url": "https://static.fotocasa.es/images/ads/cb0fc77f-cabd-4350-ac61-1a256b1f18d9?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/9415a673-cf23-4f48-be59-5c580691e4a3?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/c827d7b2-51b2-4cb5-89a8-ae6fdc911636?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/b5fa922f-a4eb-4b1e-80cf-fce161cf24d9?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/31ebf58f-b99b-449d-9de9-c13add0520e8?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/6990c7ef-b42a-4308-be26-12d72692cbda?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/74df348b-1b13-481a-a2cc-683d52de4fdc?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/529128dc-7087-441a-a5d0-263e7d18c028?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/6a9d1b4f-65ba-40db-8e62-54edc91bc425?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/e5d6de7f-73ad-4974-b48b-2ea96e95b32b?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/1258588c-3117-4acc-bda7-ade756f816a4?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    }
+   ],
+   "features": [
+    {
+     "key": "bathrooms",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "conservationState",
+     "value": [
+      2
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "floor",
+     "value": [
+      7
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "heater",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "rooms",
+     "value": [
+      2
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "surface",
+     "value": [
+      60
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    }
+   ],
+   "otherFeatures": null,
+   "transactions": [
+    {
+     "transactionTypeId": 3,
+     "value": [
+      690
+     ],
+     "reduced": 60,
+     "periodicityId": 3,
+     "maxPrice": 0,
+     "minPrice": 0
+    }
+   ],
+   "products": [],
+   "contracts": [
+    {
+     "id": 7
+    },
+    {
+     "id": 107
+    },
+    {
+     "id": 110
+    },
+    {
+     "id": 129
+    },
+    {
+     "id": 152
+    },
+    {
+     "id": 163
+    },
+    {
+     "id": 165
+    },
+    {
+     "id": 174
+    },
+    {
+     "id": 184
+    },
+    {
+     "id": 192
+    },
+    {
+     "id": 199
+    },
+    {
+     "id": 202
+    },
+    {
+     "id": 203
+    },
+    {
+     "id": 204
+    },
+    {
+     "id": 208
+    },
+    {
+     "id": 212
+    },
+    {
+     "id": 228
+    },
+    {
+     "id": 230
+    },
+    {
+     "id": 231
+    },
+    {
+     "id": 239
+    }
+   ],
+   "address": {
+    "ubication": "Plaza de Toros - Santa Rita",
+    "location": {
+     "country": "España",
+     "level1": "Andalucía",
+     "level2": "Almería",
+     "level3": "Almería capital y entorno",
+     "level4": "Almería, Zona de",
+     "level5": " Almería Capital",
+     "level6": "",
+     "level7": "Plaza de Toros - Santa Rita",
+     "level8": "",
+     "upperLevel": "Plaza de Toros - Santa Rita",
+     "countryId": 724,
+     "level1Id": 1,
+     "level2Id": 4,
+     "level3Id": 276,
+     "level4Id": 486,
+     "level5Id": 4013,
+     "level6Id": 0,
+     "level7Id": 4316,
+     "level8Id": 0
+    },
+    "coordinates": {
+     "accuracy": 0,
+     "latitude": 36.845104,
+     "longitude": -2.4620607
+    },
+    "zipCode": "04003",
+    "customZone": null
+   },
+   "date": "2026-09-09T19:31:22.987Z",
+   "description": "Eres Estudiante? Erasmus?  o te han trasladado de forma temporal, Esta es tu vivienda,  se alquila moderno apartamento de dos dormitorios en pleno casco histórico, a un paso de la Catedral y de la zona de ocio, una calle que mantiene ese encanto tradicional de Almería.\nLa vivienda ha sido reformada con un diseño actual y funcional, pensada para aprovechar al máximo la famosa luz de nuestra ciudad.\n\nUbicación Premium: A pie de todos los servicios, cultura y restauración.\n\nLuz Natural: Su orientación garantiza luminosidad durante gran parte del día.\n\nEstado: Reforma integral (suelos, cocina, baño y mobiliario a estrenar). Segunda planta sin ascensor.\n\nCondiciones: Alquiler de temporada. Buscamos un perfil solvente (se realizará estudio de viabilidad para seguro de impago).\n\nUn refugio de paz y sol en el centro histórico. ¡Ven a verlo!\n\nPRECIO DE Alquiler : 690,00€\nGASTOS : Suministros y Basura.\nPRECIO FINAL : 690,00€ + importe de los suministros y Basura.\nEn cumplimiento de las obligaciones de información previstas en la Ley 10/2025, de 28 de diciembre, de servicios de atención a la clientela y transparencia, así como en la normativa sectorial vigente, se hace constar que el precio indicado no incluye los gastos e impuestos inherentes a la adquisición, los cuales se desglosan a continuación: Impuesto sobre Transmisiones Patrimoniales (ITP): Se aplicará el tipo impositivo vigente en la Comunidad Autónoma de Andalucía (generalmente el 7% (CÁLCULO _), sin perjuicio de tipos reducidos del 3,5%, 1,2% o 1% aplicables según las circunstancias personales del comprador o las características del inmueble). El impuesto se devenga sobre el Valor de Referencia de Catastro o el precio de venta, aquel que resulte superior. Gastos de Notaría: Los honorarios notariales se calcularán conforme al arancel oficial regulado en el Anexo I, del Real Decreto 1426/1989, de 17 de noviembre, por el que se aprueba el arancel Notarial. Gastos de Registro: La inscripción en el Registro de la Propiedad se facturará según el arancel oficial establecido en el ANEXO I, del Real Decreto 1427/1989, de 17 de noviembre, por el que se aprueba el arancel Notarial. Gastos de Gestión (Gestoría): Loshonorarios por la tramitación administrativa, liquidación de impuestos e inscripción registral no están incluidos en el precio y dependerán de la empresa gestora y de la forma de pago del inmueble. Honorarios Agencia del Vendedor: incluidos en el PVP. Honorarios Agencia del comprador: Se informa que eventualmente, podrían existir honorarios profesionales a cargo del adquirente, en aquellos casos, en que se hubieran contratados servicios de encargo de compra (PSI), Personal Shopper Inmobiliario. NO VINCULADOS AL PRECIO DE COMPRA. Para una información exhaustiva sobre el funcionamiento, tipos impositivos y bonificaciones del ITP en Andalucía, puede consultar el portal oficial de la Agencia Tributaria de la Junta de Andalucía en el siguiente enlace:\nhttps://www.juntadeandalucia.es/organismos/economiahaciendayfondoseuropeos/areas/tributos-juego/tributos/paginas/impuestos-cedidos-transmisiones.html; Gastos de Gestión: . Tenemos a disposición del consumidor en nuestra oficina, copia del documento informativo abreviado según decreto 218/2005, Este anuncio no es vinculante y puede contener errores. Su confianza nuestra mayor recompensa",
+   "isTop": false,
+   "isPhotoReport": false,
+   "isMsAdvance": false,
+   "isExternalContact": false,
+   "isVirtualTour": false,
+   "hasVgo": false,
+   "hasDescriptionPlan": false,
+   "realEstateAdId": "413f3470-cf6f-407d-b1da-5eed0f6a2998",
+   "otherFeaturesCount": 3,
+   "externalContactUrl": null,
+   "isCompleted": null,
+   "isMainTypology": false,
+   "hasSubsidies": true
+  },
+  {
+   "id": 190429533,
+   "typeId": 2,
+   "subtypeId": 1,
+   "promotionId": 0,
+   "promotionTypeId": 0,
+   "promotion": null,
+   "isNew": false,
+   "advertiser": {
+    "logo": {
+     "multimedia": {
+      "url": "https://static.fotocasa.es/images/client/9202760698600/519052.jpg?rule=original",
+      "typeId": 8,
+      "position": null,
+      "roomType": null
+     },
+     "url": {
+      "es": "/inmobiliarias/inmobiliaria-nueva-andalucia-9202760698600"
+     }
+    },
+    "phone": "+34600000000",
+    "typeId": 3,
+    "clientId": 9202760698600,
+    "urlAlias": "inmobiliaria-nueva-andalucia",
+    "clientAlias": "INMOBILIARIA NUEVA ANDALUCIA"
+   },
+   "detail": {
+    "es": "/es/alquiler/vivienda/almeria/aire-acondicionado-calefaccion-parking-terraza-zona-comunitaria-ascensor-amueblado-piscina/190429533/d"
+   },
+   "multimedias": [
+    {
+     "url": "https://static.fotocasa.es/images/ads/71523f6b-0499-4475-8eac-24d50af88075?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/765a5822-b6af-473e-a7ff-07f26f7580d6?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/4378a548-9b77-4173-91a9-a42f09fc09f1?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/a7c93182-66c5-48e9-ae6e-21af5f946c5a?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/9889b60f-55a4-4a99-baa6-6dd7e056b429?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/04327fee-ac6e-439c-99d3-8876b36453b5?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/dfada738-f9cb-4409-a63d-db62193e464e?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/f50cc6a5-a916-4ab8-ab32-460493c7b78a?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/a1190f2d-2912-4d53-930f-8fd46c108fdc?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/f49cd425-0cdb-4625-80df-f995548560a1?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/c696cae9-36c2-494d-96f1-810663e0170d?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/11ce8bd1-0754-4f5f-91bc-ab84d9f82386?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/105cce93-dced-4368-a451-c638c2194c55?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/d9801cf1-3a23-4bf9-b3c1-53fd087650d6?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/6fa8dc12-4a4f-47de-ac92-dfa721765fa1?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/541c5c75-cb82-4e4d-b3b2-e5ac5b67dde8?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    }
+   ],
+   "features": [
+    {
+     "key": "bathrooms",
+     "value": [
+      2
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "conservationState",
+     "value": [
+      3
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "floor",
+     "value": [
+      7
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "air_conditioner",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "heater",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "terrace",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "elevator",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "rooms",
+     "value": [
+      2
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "surface",
+     "value": [
+      70
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    }
+   ],
+   "otherFeatures": null,
+   "transactions": [
+    {
+     "transactionTypeId": 3,
+     "value": [
+      700
+     ],
+     "reduced": 0,
+     "periodicityId": 3,
+     "maxPrice": 0,
+     "minPrice": 0
+    }
+   ],
+   "products": [],
+   "contracts": [
+    {
+     "id": 7
+    },
+    {
+     "id": 107
+    },
+    {
+     "id": 110
+    },
+    {
+     "id": 129
+    },
+    {
+     "id": 152
+    },
+    {
+     "id": 163
+    },
+    {
+     "id": 165
+    },
+    {
+     "id": 174
+    },
+    {
+     "id": 184
+    },
+    {
+     "id": 199
+    },
+    {
+     "id": 202
+    },
+    {
+     "id": 203
+    },
+    {
+     "id": 204
+    },
+    {
+     "id": 208
+    },
+    {
+     "id": 212
+    },
+    {
+     "id": 228
+    },
+    {
+     "id": 230
+    },
+    {
+     "id": 231
+    },
+    {
+     "id": 239
+    }
+   ],
+   "address": {
+    "ubication": "Retamar",
+    "location": {
+     "country": "España",
+     "level1": "Andalucía",
+     "level2": "Almería",
+     "level3": "Almería capital y entorno",
+     "level4": "Almería, Zona de",
+     "level5": " Almería Capital",
+     "level6": "",
+     "level7": "Retamar",
+     "level8": "",
+     "upperLevel": "Retamar",
+     "countryId": 724,
+     "level1Id": 1,
+     "level2Id": 4,
+     "level3Id": 276,
+     "level4Id": 486,
+     "level5Id": 4013,
+     "level6Id": 0,
+     "level7Id": 4328,
+     "level8Id": 0
+    },
+    "coordinates": {
+     "accuracy": 0,
+     "latitude": 36.83598,
+     "longitude": -2.3094742
+    },
+    "zipCode": "04131",
+    "customZone": null
+   },
+   "date": "2026-08-07T18:35:10.303Z",
+   "description": "Piso con muebles y plaza de garaje. Disponible curso escolar. Superf. 70 m²,  2 habitaciones (1 doble,  1 individual),  2 baños, cocina, comedor, terraza, jardín (comunitario), garaje, ascensor, calefacción (centralizado), muebles, año construcción (2005), aire acondicionado (centralizado), piscina (comunitaria), pista de padel. Disponemos de copia de DIA conforme Decreto 218/2005 en nuestras oficinas.",
+   "isTop": false,
+   "isPhotoReport": false,
+   "isMsAdvance": false,
+   "isExternalContact": false,
+   "isVirtualTour": false,
+   "hasVgo": false,
+   "hasDescriptionPlan": false,
+   "realEstateAdId": "02e4fa35-f328-4f90-8a8b-9cc3e38aa7c9",
+   "otherFeaturesCount": 5,
+   "externalContactUrl": null,
+   "isCompleted": null,
+   "isMainTypology": false,
+   "hasSubsidies": true
+  },
+  {
+   "id": 190141562,
+   "typeId": 2,
+   "subtypeId": 6,
+   "promotionId": 0,
+   "promotionTypeId": 0,
+   "promotion": null,
+   "isNew": false,
+   "advertiser": {
+    "logo": {
+     "multimedia": {
+      "url": "https://static.fotocasa.es/images/client/9202760698600/519052.jpg?rule=original",
+      "typeId": 8,
+      "position": null,
+      "roomType": null
+     },
+     "url": {
+      "es": "/inmobiliarias/inmobiliaria-nueva-andalucia-9202760698600"
+     }
+    },
+    "phone": "+34600000000",
+    "typeId": 3,
+    "clientId": 9202760698600,
+    "urlAlias": "inmobiliaria-nueva-andalucia",
+    "clientAlias": "INMOBILIARIA NUEVA ANDALUCIA"
+   },
+   "detail": {
+    "es": "/es/alquiler/vivienda/almeria/aire-acondicionado-terraza-ascensor-amueblado/190141562/d"
+   },
+   "multimedias": [
+    {
+     "url": "https://static.fotocasa.es/images/ads/fe8450eb-9272-4377-9b37-3f02350a8aff?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/6e4be3f2-10ce-4e74-baf8-52455b386320?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/ac46fc79-f890-4afe-a238-0034be61695b?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/be7c627c-e745-4d96-bd53-9e091a44f43c?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/ccf79565-d7e4-4c81-9988-215f0a9a7dbf?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/d3b8a31b-0825-4742-acc6-161445b04b7d?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/58fbfd6f-67a2-4690-b8a4-d90b951129ac?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/c1914165-a962-41e9-912a-0bd1fa62bdbe?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/06e38f6e-4844-4149-88a9-98175c5d8a13?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/fd313092-2a1d-4491-ab87-1cacc8469bdf?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/0a0a5c02-570f-480e-ab88-4492b0bc04d2?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/235e51a2-2d4e-4552-8aff-7bee2f04e0fa?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/a300109c-deac-4935-9b9d-a320c79be88f?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/f9c5eb21-a6af-421b-a04e-12eecc46dc39?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/bbe20071-ab93-4855-8edc-03393faf2fbc?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/ef8c81b5-eb19-4417-aa84-9015567523a9?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/0c9ea4cc-209a-4afc-82f7-6382e1107ca5?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/a6e58b10-d301-448b-8ecd-38ab7f72fa39?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/17f38077-bf26-42da-95a4-dc5573b1dac4?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    }
+   ],
+   "features": [
+    {
+     "key": "bathrooms",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "conservationState",
+     "value": [
+      3
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "floor",
+     "value": [
+      9
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "air_conditioner",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "terrace",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "elevator",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "rooms",
+     "value": [
+      2
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "surface",
+     "value": [
+      120
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    }
+   ],
+   "otherFeatures": null,
+   "transactions": [
+    {
+     "transactionTypeId": 3,
+     "value": [
+      700
+     ],
+     "reduced": 0,
+     "periodicityId": 3,
+     "maxPrice": 0,
+     "minPrice": 0
+    }
+   ],
+   "products": [],
+   "contracts": [
+    {
+     "id": 7
+    },
+    {
+     "id": 107
+    },
+    {
+     "id": 110
+    },
+    {
+     "id": 129
+    },
+    {
+     "id": 152
+    },
+    {
+     "id": 163
+    },
+    {
+     "id": 165
+    },
+    {
+     "id": 174
+    },
+    {
+     "id": 184
+    },
+    {
+     "id": 199
+    },
+    {
+     "id": 202
+    },
+    {
+     "id": 203
+    },
+    {
+     "id": 204
+    },
+    {
+     "id": 208
+    },
+    {
+     "id": 212
+    },
+    {
+     "id": 228
+    },
+    {
+     "id": 230
+    },
+    {
+     "id": 231
+    },
+    {
+     "id": 239
+    }
+   ],
+   "address": {
+    "ubication": "Piedras Redondas - Torrecárdenas",
+    "location": {
+     "country": "España",
+     "level1": "Andalucía",
+     "level2": "Almería",
+     "level3": "Almería capital y entorno",
+     "level4": "Almería, Zona de",
+     "level5": " Almería Capital",
+     "level6": "",
+     "level7": "Piedras Redondas - Torrecárdenas",
+     "level8": "",
+     "upperLevel": "Piedras Redondas - Torrecárdenas",
+     "countryId": 724,
+     "level1Id": 1,
+     "level2Id": 4,
+     "level3Id": 276,
+     "level4Id": 486,
+     "level5Id": 4013,
+     "level6Id": 0,
+     "level7Id": 4317,
+     "level8Id": 0
+    },
+    "coordinates": {
+     "accuracy": 0,
+     "latitude": 36.862495,
+     "longitude": -2.450565
+    },
+    "zipCode": "04009",
+    "customZone": null
+   },
+   "date": "2026-07-03T12:55:16.79Z",
+   "description": "Piso con muebles en alquiler. Disponible curso escolar. Altura piso 4º, ático superficie total 120 m², superficie útil 120 m², hab. individuales: 1, habitaciones dobles: 1, 1 baño, aire acondicionado (frío y calor), armarios empotrados, ascensor, carpintería exterior (aluminio), carpintería interior (pino), cocina, comedor, estado conservación: buen estado, gastos de comunidad:  incluidos, amueblado, terraza (65 m2), suelos: tarima flotante. Disponemos de copia de DIA conforme Decreto 218/2005 en nuestras oficinas.",
+   "isTop": false,
+   "isPhotoReport": false,
+   "isMsAdvance": false,
+   "isExternalContact": false,
+   "isVirtualTour": false,
+   "hasVgo": false,
+   "hasDescriptionPlan": false,
+   "realEstateAdId": "1022218f-0ca7-42f1-b4f6-df9bd6a447fb",
+   "otherFeaturesCount": 3,
+   "externalContactUrl": null,
+   "isCompleted": null,
+   "isMainTypology": false,
+   "hasSubsidies": true
+  },
+  {
+   "id": 187764284,
+   "typeId": 2,
+   "subtypeId": 1,
+   "promotionId": 0,
+   "promotionTypeId": 0,
+   "promotion": null,
+   "isNew": false,
+   "advertiser": {
+    "logo": null,
+    "phone": "",
+    "typeId": 1,
+    "clientId": 9202773196494,
+    "urlAlias": "",
+    "clientAlias": ""
+   },
+   "detail": {
+    "es": "/es/alquiler/vivienda/almeria-capital/ascensor-patio-piscina-amueblado/187764284/d"
+   },
+   "multimedias": [
+    {
+     "url": "https://static.fotocasa.es/images/ads/1eda7b39-db24-47a5-bb98-cbfbc5f2141c?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "swimming pool"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/14b955d8-720f-4b30-a59c-1a5e6381de93?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "exterior"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/3d6f5f69-d2c3-4e72-829c-afd042087dfe?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "living room"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/39e18bd3-c441-40de-b478-318dd9fdc9e7?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "other"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/af2a962e-7a89-4ee6-9aac-d66d7b8938bf?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "bedroom"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/812046f5-3e15-47a1-8af8-529bf4f796a9?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "bathroom"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/4406a67f-f0d7-4ecd-951e-72db12e05777?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "kitchen"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/ce297c3c-b9c3-46c1-9b98-94ebb4f5697a?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "living room"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/1b2b85fb-dcab-4611-9fc5-253d21c2a84b?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "bedroom"
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/b2062a7b-0edc-4ea4-9faa-95365243c5ea?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": "parking"
+    }
+   ],
+   "features": [
+    {
+     "key": "bathrooms",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "elevator",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "swimming_pool",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "rooms",
+     "value": [
+      2
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "surface",
+     "value": [
+      55
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    }
+   ],
+   "otherFeatures": null,
+   "transactions": [
+    {
+     "transactionTypeId": 3,
+     "value": [
+      600
+     ],
+     "reduced": 0,
+     "periodicityId": 3,
+     "maxPrice": 0,
+     "minPrice": 0
+    }
+   ],
+   "products": [],
+   "contracts": [],
+   "address": {
+    "ubication": "Camino del Pueblo, 16, Retamar",
+    "location": {
+     "country": "España",
+     "level1": "Andalucía",
+     "level2": "Almería",
+     "level3": "Almería capital y entorno",
+     "level4": "Almería, Zona de",
+     "level5": " Almería Capital",
+     "level6": "",
+     "level7": "Retamar",
+     "level8": "",
+     "upperLevel": "Retamar",
+     "countryId": 724,
+     "level1Id": 1,
+     "level2Id": 4,
+     "level3Id": 276,
+     "level4Id": 486,
+     "level5Id": 4013,
+     "level6Id": 0,
+     "level7Id": 4328,
+     "level8Id": 0
+    },
+    "coordinates": {
+     "accuracy": 1,
+     "latitude": 36.833015,
+     "longitude": -2.3119757
+    },
+    "zipCode": "04131",
+    "customZone": null
+   },
+   "date": "2025-10-05T12:49:06.48Z",
+   "description": "Se alquila apartamento reformado de planta baja para curso escolar o todo el año. Situado en Retamar en primera linea de playa. Tiene parking al aire libre. Contactar preferentemente por telefono: ***",
+   "isTop": false,
+   "isPhotoReport": false,
+   "isMsAdvance": false,
+   "isExternalContact": false,
+   "isVirtualTour": false,
+   "hasVgo": false,
+   "hasDescriptionPlan": false,
+   "realEstateAdId": "430e998c-7bb8-4dd4-9f7e-bab5b3153e14",
+   "otherFeaturesCount": 8,
+   "externalContactUrl": null,
+   "isCompleted": null,
+   "isMainTypology": false,
+   "hasSubsidies": true
+  },
+  {
+   "id": 183685580,
+   "typeId": 2,
+   "subtypeId": 1,
+   "promotionId": 0,
+   "promotionTypeId": 0,
+   "promotion": null,
+   "isNew": false,
+   "advertiser": {
+    "logo": {
+     "multimedia": {
+      "url": "https://static.fotocasa.es/images/client/9202760698600/519052.jpg?rule=original",
+      "typeId": 8,
+      "position": null,
+      "roomType": null
+     },
+     "url": {
+      "es": "/inmobiliarias/inmobiliaria-nueva-andalucia-9202760698600"
+     }
+    },
+    "phone": "+34600000000",
+    "typeId": 3,
+    "clientId": 9202760698600,
+    "urlAlias": "inmobiliaria-nueva-andalucia",
+    "clientAlias": "INMOBILIARIA NUEVA ANDALUCIA"
+   },
+   "detail": {
+    "es": "/es/alquiler/vivienda/almeria-capital/terraza-zona-comunitaria-ascensor-amueblado-piscina/183685580/d"
+   },
+   "multimedias": [
+    {
+     "url": "https://static.fotocasa.es/images/ads/0e2f1c4b-9a21-4d2e-8da4-4dc892e136ab?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/96351ceb-4263-4d22-b01c-cb02489fda4e?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    }
+   ],
+   "features": [
+    {
+     "key": "bathrooms",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "conservationState",
+     "value": [
+      3
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "floor",
+     "value": [
+      7
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "terrace",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "elevator",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "rooms",
+     "value": [
+      2
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "surface",
+     "value": [
+      60
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    }
+   ],
+   "otherFeatures": null,
+   "transactions": [
+    {
+     "transactionTypeId": 3,
+     "value": [
+      650
+     ],
+     "reduced": 0,
+     "periodicityId": 3,
+     "maxPrice": 0,
+     "minPrice": 0
+    }
+   ],
+   "products": [],
+   "contracts": [
+    {
+     "id": 7
+    },
+    {
+     "id": 107
+    },
+    {
+     "id": 110
+    },
+    {
+     "id": 129
+    },
+    {
+     "id": 152
+    },
+    {
+     "id": 163
+    },
+    {
+     "id": 165
+    },
+    {
+     "id": 174
+    },
+    {
+     "id": 184
+    },
+    {
+     "id": 199
+    },
+    {
+     "id": 202
+    },
+    {
+     "id": 203
+    },
+    {
+     "id": 204
+    },
+    {
+     "id": 208
+    },
+    {
+     "id": 212
+    },
+    {
+     "id": 228
+    },
+    {
+     "id": 230
+    },
+    {
+     "id": 231
+    },
+    {
+     "id": 239
+    }
+   ],
+   "address": {
+    "ubication": "Retamar",
+    "location": {
+     "country": "España",
+     "level1": "Andalucía",
+     "level2": "Almería",
+     "level3": "Almería capital y entorno",
+     "level4": "Almería, Zona de",
+     "level5": " Almería Capital",
+     "level6": "",
+     "level7": "Retamar",
+     "level8": "",
+     "upperLevel": "Retamar",
+     "countryId": 724,
+     "level1Id": 1,
+     "level2Id": 4,
+     "level3Id": 276,
+     "level4Id": 486,
+     "level5Id": 4013,
+     "level6Id": 0,
+     "level7Id": 4328,
+     "level8Id": 0
+    },
+    "coordinates": {
+     "accuracy": 0,
+     "latitude": 36.835186,
+     "longitude": -2.3067095
+    },
+    "zipCode": "04131",
+    "customZone": null
+   },
+   "date": "2024-06-26T20:59:46.897Z",
+   "description": "Piso con muebles en alquiler, terminando de reformar totalmente y todo a estrenar, disponible a partir de mediados de noviembre para curso escolar. Altura piso 2º,  superficie total 60 m², superficie útil 60 m², hab. individuales: 1, habitaciones dobles: 1, 1 baño, armarios empotrados, ascensor, carpintería exterior (aluminio), carpintería interior (sapeli), cocina, comedor, estado conservación: buen estado, gastos de comunidad:  incluidos, jardín (comunitario), amueblado, orientación oeste, piscina (comunitaria), terraza, suelos: terrazo. Disponemos de copia de DIA conforme Decreto 218/2005 en nuestras oficinas.",
+   "isTop": false,
+   "isPhotoReport": false,
+   "isMsAdvance": false,
+   "isExternalContact": false,
+   "isVirtualTour": false,
+   "hasVgo": false,
+   "hasDescriptionPlan": false,
+   "realEstateAdId": "9abb65ce-81d0-43e8-978c-7ef18d9701f7",
+   "otherFeaturesCount": 5,
+   "externalContactUrl": null,
+   "isCompleted": null,
+   "isMainTypology": false,
+   "hasSubsidies": true
+  },
+  {
+   "id": 183675216,
+   "typeId": 2,
+   "subtypeId": 1,
+   "promotionId": 0,
+   "promotionTypeId": 0,
+   "promotion": null,
+   "isNew": false,
+   "advertiser": {
+    "logo": {
+     "multimedia": {
+      "url": "https://static.fotocasa.es/images/client/9202760698600/519052.jpg?rule=original",
+      "typeId": 8,
+      "position": null,
+      "roomType": null
+     },
+     "url": {
+      "es": "/inmobiliarias/inmobiliaria-nueva-andalucia-9202760698600"
+     }
+    },
+    "phone": "+34600000000",
+    "typeId": 3,
+    "clientId": 9202760698600,
+    "urlAlias": "inmobiliaria-nueva-andalucia",
+    "clientAlias": "INMOBILIARIA NUEVA ANDALUCIA"
+   },
+   "detail": {
+    "es": "/es/alquiler/vivienda/almeria/terraza-amueblado/183675216/d"
+   },
+   "multimedias": [
+    {
+     "url": "https://static.fotocasa.es/images/ads/07901689-f2f6-45b9-97d0-f3a85a57a909?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/f74d48cd-ffc8-47ca-8753-84634a88c532?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/0e03eb7e-1adf-4d2c-ac32-9b2605f154f7?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/e769ed38-0628-417d-9df5-2c6a0944eecb?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/1eb589ea-6c41-44f7-ba18-1c16a908a727?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/3be431e2-a764-44ac-9d13-99b70bcdff4d?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/6de51b47-57b9-4252-aec6-189e17721d7f?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/fdad4eaa-36dc-463f-ae04-45d683386889?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/e47da100-6eb7-4f89-b426-79ac313579b8?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/c93aa3a7-58a4-4577-9449-a87dcfe911b2?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/40ea16c9-5177-479b-981c-564b2fc89581?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/406fd184-c00b-47f2-84cd-a17c33b28a47?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    },
+    {
+     "url": "https://static.fotocasa.es/images/ads/be843e8e-83e7-4a7e-90cd-fe6573ec1220?rule=original",
+     "typeId": 2,
+     "position": null,
+     "roomType": null
+    }
+   ],
+   "features": [
+    {
+     "key": "bathrooms",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "conservationState",
+     "value": [
+      3
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "floor",
+     "value": [
+      7
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "terrace",
+     "value": [
+      1
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "rooms",
+     "value": [
+      2
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    },
+    {
+     "key": "surface",
+     "value": [
+      69
+     ],
+     "minValue": 0,
+     "maxValue": 0
+    }
+   ],
+   "otherFeatures": null,
+   "transactions": [
+    {
+     "transactionTypeId": 3,
+     "value": [
+      550
+     ],
+     "reduced": 0,
+     "periodicityId": 3,
+     "maxPrice": 0,
+     "minPrice": 0
+    }
+   ],
+   "products": [],
+   "contracts": [
+    {
+     "id": 7
+    },
+    {
+     "id": 107
+    },
+    {
+     "id": 110
+    },
+    {
+     "id": 129
+    },
+    {
+     "id": 152
+    },
+    {
+     "id": 163
+    },
+    {
+     "id": 165
+    },
+    {
+     "id": 174
+    },
+    {
+     "id": 184
+    },
+    {
+     "id": 199
+    },
+    {
+     "id": 202
+    },
+    {
+     "id": 203
+    },
+    {
+     "id": 204
+    },
+    {
+     "id": 208
+    },
+    {
+     "id": 212
+    },
+    {
+     "id": 228
+    },
+    {
+     "id": 230
+    },
+    {
+     "id": 231
+    },
+    {
+     "id": 239
+    }
+   ],
+   "address": {
+    "ubication": "Retamar",
+    "location": {
+     "country": "España",
+     "level1": "Andalucía",
+     "level2": "Almería",
+     "level3": "Almería capital y entorno",
+     "level4": "Almería, Zona de",
+     "level5": " Almería Capital",
+     "level6": "",
+     "level7": "Retamar",
+     "level8": "",
+     "upperLevel": "Retamar",
+     "countryId": 724,
+     "level1Id": 1,
+     "level2Id": 4,
+     "level3Id": 276,
+     "level4Id": 486,
+     "level5Id": 4013,
+     "level6Id": 0,
+     "level7Id": 4328,
+     "level8Id": 0
+    },
+    "coordinates": {
+     "accuracy": 0,
+     "latitude": 36.83551,
+     "longitude": -2.3117278
+    },
+    "zipCode": "04131",
+    "customZone": null
+   },
+   "date": "2024-06-25T21:10:11.65Z",
+   "description": "Piso con muebles en alquiler. Disponible curso escolar a partir del 15 de septiembre. Superf. 69 m²,  2 habitaciones (1 doble,  1 individual),  1 baño, cocina, comedor, terraza (4 m2), suelos (terrazo),  muebles, año construcción (1983), carpintería exterior (aluminio), aire acondicionado, piscina, plaza de garaje, gastos de comunidad incluidos, disponible curso escolar.  Disponemos de copia de DIA conforme Decreto 218/2005 en nuestras oficinas.",
+   "isTop": false,
+   "isPhotoReport": false,
+   "isMsAdvance": false,
+   "isExternalContact": false,
+   "isVirtualTour": false,
+   "hasVgo": false,
+   "hasDescriptionPlan": false,
+   "realEstateAdId": "a6d16baa-7fc3-4986-8c41-b3cc4fe708f4",
+   "otherFeaturesCount": 2,
+   "externalContactUrl": null,
+   "isCompleted": null,
+   "isMainTypology": false,
+   "hasSubsidies": true
+  }
+ ],
+ "adjacentRealEstates": [],
+ "containerCombinedLocation": null,
+ "promotionClassifieds": [],
+ "purchaseTypeFacets": []
+}

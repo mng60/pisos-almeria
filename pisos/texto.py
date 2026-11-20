@@ -24,10 +24,18 @@ def normalizar(texto: str) -> str:
     return sin_tildes.lower()
 
 
+# Aparcar en la calle o en un parking público no es tener garaje (textos reales de Fotocasa).
+APARCAR_FUERA = re.compile(r"street|calle|publico|facil|easy|zona azul|cerca|alrededores")
+
+
 def _menciones(texto: str, patron: re.Pattern) -> list[tuple[bool, str]]:
-    """Por cada mención del término: (negada, contexto de alrededor)."""
+    """Por cada mención del término: (negada, contexto de alrededor). Omite las de aparcar fuera."""
     res = []
     for m in patron.finditer(texto):
+        frase_antes = re.split(r"[.;:!?\n•]", texto[: m.start()])[-1][-25:]
+        frase_despues = re.split(r"[.,;:!?\n•]", texto[m.end():])[0][:25]
+        if patron is GARAJE and APARCAR_FUERA.search(frase_antes + " " + frase_despues):
+            continue
         # Solo cuenta la misma frase o inciso: un «no» de la frase anterior no niega.
         tramo = re.split(r"[.,;:!?\n()]", texto[: m.start()])[-1]
         antes = re.findall(r"\w+", tramo)[-VENTANA:]

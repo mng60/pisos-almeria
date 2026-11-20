@@ -15,6 +15,10 @@ from pisos.texto import detectar_ascensor, detectar_garaje, leer_precio
     ("Posibilidad de alquilar plaza de garaje", ("si", "opcional")),
     ("Reformado, no fumadores. Garaje incluido", ("si", None)),
     ("Se alquila sin muebles y con garaje", ("si", None)),
+    # Textos reales de Fotocasa (anuncio 190946960, 20/11/2026): aparcar en la calle no es garaje.
+    ("• Fácil aparcamiento en la calle.", (None, None)),
+    ("• Easy street parking available.", (None, None)),
+    ("Zona con parking público cerca", (None, None)),
     (None, (None, None)),
 ])
 def test_detectar_garaje(t, esperado):
