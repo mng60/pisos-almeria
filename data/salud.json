@@ -4,41 +4,41 @@
   "motivo": null,
   "ultimo_fallo": null,
   "ultimo_n": 8,
-  "ultimo_ok": "2026-11-24"
+  "ultimo_ok": "2026-11-25"
  },
  "habitaclia": {
   "fallos_seguidos": 0,
   "motivo": null,
   "ultimo_fallo": null,
-  "ultimo_n": 13,
-  "ultimo_ok": "2026-11-24"
+  "ultimo_n": 12,
+  "ultimo_ok": "2026-11-25"
  },
  "idealista": {
   "fallos_seguidos": 0,
   "motivo": null,
   "ultimo_fallo": null,
   "ultimo_n": 11,
-  "ultimo_ok": "2026-11-24"
+  "ultimo_ok": "2026-11-25"
  },
  "milanuncios": {
   "fallos_seguidos": 0,
   "motivo": null,
   "ultimo_fallo": null,
   "ultimo_n": 6,
-  "ultimo_ok": "2026-11-24"
+  "ultimo_ok": "2026-11-25"
  },
  "pisoscom": {
   "fallos_seguidos": 0,
   "motivo": null,
   "ultimo_fallo": null,
   "ultimo_n": 23,
-  "ultimo_ok": "2026-11-24"
+  "ultimo_ok": "2026-11-25"
  },
  "yaencontre": {
   "fallos_seguidos": 0,
   "motivo": null,
   "ultimo_fallo": null,
   "ultimo_n": 23,
-  "ultimo_ok": "2026-11-24"
+  "ultimo_ok": "2026-11-25"
  }
 }
